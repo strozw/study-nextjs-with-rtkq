@@ -12,10 +12,15 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "commit": "commit",
+    "commit": "cz",
     "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
   },
   "lint-staged": {
     "*.{md,json,yml,yaml}": "prettier --write",
@@ -39,6 +44,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/cz-commitlint": "^17.4.2",
     "@commitlint/prompt-cli": "^17.4.2",
     "@storybook/addon-essentials": "^7.0.0-beta.36",
     "@storybook/addon-interactions": "^7.0.0-beta.36",
@@ -48,6 +54,7 @@
     "@storybook/react": "^7.0.0-beta.36",
     "@storybook/testing-library": "0.0.14-next.1",
     "chromatic": "^6.15.0",
+    "commitizen": "^4.3.0",
     "css-loader": "^6.7.3",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-storybook": "^0.6.10",
