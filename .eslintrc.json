@@ -10,7 +10,8 @@
     "plugin:storybook/recommended",
     "next",
     "next/core-web-vitals",
-    "prettier"
+    "prettier",
+    "plugin:storybook/recommended"
   ],
   "settings": {
     "import/resolver": {
