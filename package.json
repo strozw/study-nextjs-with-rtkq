@@ -1,6 +1,11 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "study-nextjs-with-rtkq",
   "version": "0.1.0",
+  "packageManager": "pnpm@7.26.2",
+  "engines": {
+    "node": "18.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
