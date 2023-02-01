@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/prettierrc.json",
   "arrowParens": "avoid",
   "bracketSameLine": false,
-  "bracketSpacing": false,
+  "bracketSpacing": true,
   "embeddedLanguageFormatting": "auto",
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
