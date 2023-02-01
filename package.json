@@ -12,7 +12,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "commit": "cz",
+    "commit": "git-cz",
     "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -58,6 +58,7 @@
     "css-loader": "^6.7.3",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-storybook": "^0.6.10",
+    "git-cz": "^4.9.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "postcss-loader": "^7.0.2",
