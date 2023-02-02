@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import { Provider } from 'react-redux'
+
 import { AppStore } from '@/store'
 
 import 'sanitize.css'

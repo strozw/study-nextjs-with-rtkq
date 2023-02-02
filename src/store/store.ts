@@ -1,7 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit'
+import {
+  configureStore,
+  createListenerMiddleware,
+  addListener,
+  TypedStartListening,
+  TypedAddListener,
+} from '@reduxjs/toolkit'
 import { createWrapper } from 'next-redux-wrapper'
-import { createListenerMiddleware, addListener } from '@reduxjs/toolkit'
-import type { TypedStartListening, TypedAddListener } from '@reduxjs/toolkit'
+
 import { resasApi } from './services/resasApi'
 
 export const createAppStore = () => {
