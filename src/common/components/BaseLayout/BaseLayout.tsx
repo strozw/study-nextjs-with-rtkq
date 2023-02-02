@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import * as style from './BaseLayout.css'
 
 export type BaseLayoutProps = {
   header?: ReactNode
@@ -7,10 +8,10 @@ export type BaseLayoutProps = {
 
 export const BaseLayout = ({ header, children }: BaseLayoutProps) => {
   return (
-    <div>
-      {header}
+    <div className={style.wrapper}>
+      <header className={style.header}>{header}</header>
 
-      <main>{children}</main>
+      <main className={style.main}>{children}</main>
     </div>
   )
 }
