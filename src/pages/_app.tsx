@@ -1,11 +1,13 @@
-import 'sanitize.css'
-import '@/common/style/global.css'
 import { AppProps } from 'next/app'
+import { AppShell } from '@/AppShell'
+import { wrapper } from '@/store'
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, ...rest }: AppProps) {
+  const { store, props } = wrapper.useWrappedStore(rest)
+
   return (
-    <>
-      <Component {...pageProps} />
-    </>
+    <AppShell store={store}>
+      <Component {...props.pageProps} />
+    </AppShell>
   )
 }
