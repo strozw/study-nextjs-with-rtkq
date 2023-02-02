@@ -1,3 +1,23 @@
+export type Http400BadRequestResponse = '400'
+
+export type Http403ForbiddenResponse = {
+  statusCode: '403'
+  message: 'Forbidden.'
+  description: string
+}
+
+export type Http404NotFoundResponse =
+  | {
+      statusCode: '404'
+      message: "404. That's an error."
+      description: 'The requested URL /404 was not found on this server.'
+    }
+  | '404'
+
+export type Http429TooManyRequestsResonse = {
+  'message': null
+}
+
 export type V1Response<R> = {
   message: string | null
   result: R
