@@ -8,13 +8,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-node@v3
         with:
           node-version-file: '.node-version'
           cache: 'pnpm'
           cache-dependency-path: 'pnpm-lock.yaml'
+
       - name: Install dependencies
-        run: pnpm
+        run: pnpm i --no-frozen-lockfile
+
+      - name: Cache for storybook build
+        uses: actions/cache@v3
+        with:
+          path: './node_modules/.cache'
+          key: ${{ runner.os }}-storybook-build-cache
 
       - name: Build Storybook
         run: pnpm build-storybook
