@@ -22,13 +22,13 @@ export const Default: Story = {
   play: async context => {
     const view = within(context.canvasElement)
 
-    const banner = await view.findByRole('banner')
+    const banner = view.getByRole('banner')
 
     await expect(banner).toBeVisible()
 
     await expect(banner).toHaveTextContent('header')
 
-    const main = await view.findByRole('main')
+    const main = view.getByRole('main')
 
     await expect(main).toBeVisible()
 
