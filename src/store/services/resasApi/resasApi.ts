@@ -9,6 +9,9 @@ import {
 export const resasApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: 'https://opendata.resas-portal.go.jp',
+    headers: {
+      'X-API-KEY': String(process.env.RESAS_API_KEY),
+    },
   }),
 
   extractRehydrationInfo(action, { reducerPath }) {
