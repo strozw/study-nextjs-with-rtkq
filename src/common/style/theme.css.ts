@@ -12,10 +12,10 @@ export const [themeClass, vars] = createTheme({
     xl: '2rem',
   },
   spaces: {
-    s: '4rem',
-    m: '8rem',
-    l: '16rem',
-    xl: '20rem',
+    s: '0.4rem',
+    m: '0.8rem',
+    l: '1.6rem',
+    xl: '2.0rem',
   },
   font: {
     reqular: 'Noto Sans JP',
