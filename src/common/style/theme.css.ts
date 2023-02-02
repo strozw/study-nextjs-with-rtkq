@@ -3,6 +3,7 @@ import { createTheme } from '@vanilla-extract/css'
 export const [themeClass, vars] = createTheme({
   color: {
     white: 'white',
+    gray: 'gray',
     primary: 'blue',
   },
   fontSizes: {
