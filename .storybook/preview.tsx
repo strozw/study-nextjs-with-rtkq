@@ -1,13 +1,12 @@
 // import { expect } from '@storybook/jest'
 
-/**
- * @see {@url https://github.com/storybookjs/storybook/discussions/16858}
- */
-// import * as matchers from '@testing-library/jest-dom'
+import { Decorator } from '@storybook/react'
+import { defaultDecorator } from './defaultDecorator'
+import { StoryParameters } from './types'
 
-// expect.extend(matchers)
+export const decorators: Decorator[] = [defaultDecorator]
 
-export const parameters = {
+export const parameters: StoryParameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
