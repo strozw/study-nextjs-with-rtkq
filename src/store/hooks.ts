@@ -1,6 +1,16 @@
-import { AppDispatch, RootState } from './store'
-import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
+import { addAppListener, AppDispatch, AppStore, RootState } from './store'
+import { TypedUseSelectorHook, useDispatch, useSelector, useStore } from 'react-redux'
+import { bindActionCreators } from '@reduxjs/toolkit'
+import { useMemo } from 'react'
 
-export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector
+export const useAppStore = useStore as () => AppStore
 
-export const useAppDispatch: () => AppDispatch = useDispatch
+export const useAppSelector = useSelector as TypedUseSelectorHook<RootState>
+
+export const useAppDispatch = useDispatch as () => AppDispatch
+
+export const useAddAppListener = () => {
+  const dispatch = useAppDispatch()
+
+  return useMemo(() => bindActionCreators(dispatch, addAppListener), [dispatch])
+}

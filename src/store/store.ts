@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { createWrapper } from 'next-redux-wrapper'
-import { createListenerMiddleware, addListener, removeListener } from '@reduxjs/toolkit'
-import type { TypedStartListening, TypedAddListener, TypedRemoveListener } from '@reduxjs/toolkit'
+import { createListenerMiddleware, addListener } from '@reduxjs/toolkit'
+import type { TypedStartListening, TypedAddListener } from '@reduxjs/toolkit'
 import { resasApi } from './services/resasApi'
 
 export const createAppStore = () => {
@@ -32,8 +32,8 @@ export type AppDispatch = AppStore['dispatch']
 
 export type AppStartListening = TypedStartListening<RootState, AppDispatch>
 
-export const addAppListener = addListener as TypedAddListener<RootState, AppDispatch>
+export type AddAppListenerAction = TypedAddListener<RootState, AppDispatch>
 
-export const removeAppListener = removeListener as TypedRemoveListener<RootState, AppDispatch>
+export const addAppListener = addListener as AddAppListenerAction
 
 export const wrapper = createWrapper<AppStore>(createAppStore, { debug: true })
