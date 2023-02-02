@@ -7,6 +7,8 @@ import {
 } from '@reduxjs/toolkit'
 import { createWrapper } from 'next-redux-wrapper'
 
+import { prefecturesPopulationChartPageSlice } from '@/features/prefecturesPopulationChart/store/prefecturesPopulationChartPageSlice'
+
 import { resasApi } from './services/resasApi'
 
 export const createAppStore = () => {
@@ -15,6 +17,8 @@ export const createAppStore = () => {
   const store = configureStore({
     reducer: {
       [resasApi.reducerPath]: resasApi.reducer,
+
+      [prefecturesPopulationChartPageSlice.name]: prefecturesPopulationChartPageSlice.reducer,
     },
     middleware: getDefaultMiddleware =>
       getDefaultMiddleware().prepend(listenerMiddleware.middleware).concat(resasApi.middleware),
