@@ -2,7 +2,7 @@ import { createTheme } from '@vanilla-extract/css'
 
 const colorPalette = {
   white: 'white',
-  lightGray1: 'f8f8f8',
+  lightGray1: '#f8f8f8',
   lightGray2: '#DFDFDF',
   gray: 'gray',
   black: '#202020',
