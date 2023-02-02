@@ -1,5 +1,6 @@
 import { themeClass } from '@/common/style/theme.css'
 import { Decorator } from '@storybook/react'
+import 'sanitize.css'
 import '../src/common/style/global.css'
 
 /**
