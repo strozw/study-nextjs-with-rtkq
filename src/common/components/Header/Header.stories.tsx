@@ -20,6 +20,6 @@ export const Default: Story = {
   play: async context => {
     const view = within(context.canvasElement)
 
-    await expect(view.getByText('Title')).toBeVisible()
+    await expect(view.getByRole('heading', { name: 'Title' })).toBeVisible()
   },
 }

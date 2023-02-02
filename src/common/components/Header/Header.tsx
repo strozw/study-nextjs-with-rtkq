@@ -6,5 +6,7 @@ export type HeaderProps = {
 }
 
 export const Header = ({ title: children }: HeaderProps) => (
-  <div className={style.wrapperStyle}>{children}</div>
+  <div className={style.wrapperStyle}>
+    <h1 className={style.headingStyle}>{children}</h1>
+  </div>
 )
