@@ -1,10 +1,32 @@
 import { createTheme } from '@vanilla-extract/css'
 
+const colorPalette = {
+  white: 'white',
+  lightGray1: 'f8f8f8',
+  lightGray2: '#DFDFDF',
+  gray: 'gray',
+  black: '#202020',
+  blue: 'blue',
+}
+
 export const [themeClass, vars] = createTheme({
   color: {
-    white: 'white',
-    gray: 'gray',
-    primary: 'blue',
+    ...colorPalette,
+    primary: colorPalette.blue,
+    common: {
+      baseLayout: {
+        bg: colorPalette.lightGray1,
+      },
+      section: {
+        fg: colorPalette.black,
+        bg: colorPalette.white,
+        shadow: colorPalette.lightGray2,
+        borderColor: colorPalette.lightGray2,
+        heading: {
+          borderColor: colorPalette.black,
+        },
+      },
+    },
   },
   fontSizes: {
     xs: '1rem',
