@@ -10,12 +10,15 @@ export const resasApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: 'https://opendata.resas-portal.go.jp',
   }),
+
   extractRehydrationInfo(action, { reducerPath }) {
     if (action.type === HYDRATE) {
       return action.payload[reducerPath]
     }
   },
+
   tagTypes: [],
+
   endpoints: builder => ({
     getV1Prefectures: builder.query<GetV1PrefecturesResponse, void>({
       query: () => ({ url: 'api/v1/prefectures' }),
