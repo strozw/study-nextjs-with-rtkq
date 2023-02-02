@@ -15,7 +15,9 @@
     "commit": "git-cz",
     "prepare": "husky install",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
+    "ci-test-storybook": "concurrently -k -s first -n \"SERVE,TEST\" -c \"magenta,blue\" \"pnpm http-server storybook-static --port 6006 --silent\" \"pnpm test-storybook\""
   },
   "config": {
     "commitizen": {
@@ -52,16 +54,19 @@
     "@storybook/jest": "^0.0.11-next.0",
     "@storybook/nextjs": "7.0.0-beta.36",
     "@storybook/react": "7.0.0-beta.36",
+    "@storybook/test-runner": "0.10.0-next.8",
     "@storybook/testing-library": "0.0.14-next.1",
     "@vanilla-extract/css": "^1.9.3",
     "@vanilla-extract/next-plugin": "^2.1.1",
     "@vanilla-extract/webpack-plugin": "^2.2.0",
     "chromatic": "^6.15.0",
     "commitizen": "^4.3.0",
+    "concurrently": "^7.6.0",
     "css-loader": "^6.7.3",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-storybook": "^0.6.10",
     "git-cz": "^4.9.0",
+    "http-server": "^14.1.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "mini-css-extract-plugin": "^2.7.2",
