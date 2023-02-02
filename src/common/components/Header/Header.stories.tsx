@@ -1,4 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react'
+import { expect } from '@storybook/jest'
+import { within } from '@storybook/testing-library'
 import { Header, HeaderProps } from './Header'
 
 type Args = HeaderProps
@@ -13,6 +15,11 @@ type Story = StoryObj<Args>
 
 export const Default: Story = {
   args: {
-    title: 'title',
+    title: 'Title',
+  },
+  play: async context => {
+    const view = within(context.canvasElement)
+
+    await expect(view.getByText('Title')).toBeVisible()
   },
 }
