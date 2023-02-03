@@ -7,4 +7,5 @@ globalStyle('html, body', {
   fontSize: '10px',
   fontFamily: vars.font.reqular,
   color: vars.color.black,
+  background: vars.color.white,
 })

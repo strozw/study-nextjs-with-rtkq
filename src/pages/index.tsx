@@ -1,3 +1,5 @@
-export default function HomePage() {
-  return <main>aaaaaaaaaa</main>
+import { HomePage } from '@/features/home/components/HomePage'
+
+export default function Page() {
+  return <HomePage />
 }

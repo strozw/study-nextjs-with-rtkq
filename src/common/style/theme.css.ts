@@ -1,12 +1,18 @@
 import { createTheme } from '@vanilla-extract/css'
 
-const colorPalette = {
+export const colorPalette = {
   white: 'white',
   lightGray1: '#f8f8f8',
   lightGray2: '#DFDFDF',
   gray: 'gray',
   black: '#202020',
   blue: 'blue',
+}
+
+export const screens = {
+  mobile: '414px',
+  tablet: '834px',
+  pc: '1024px',
 }
 
 export const [themeClass, vars] = createTheme({
@@ -28,6 +34,10 @@ export const [themeClass, vars] = createTheme({
       },
     },
   },
+
+  /**
+   * font size の variation
+   */
   fontSizes: {
     xs: '1rem',
     s: '1.2rem',
@@ -35,12 +45,20 @@ export const [themeClass, vars] = createTheme({
     l: '1.6rem',
     xl: '2rem',
   },
+
+  /**
+   * spacing の variation
+   */
   spaces: {
     s: '0.4rem',
     m: '0.8rem',
     l: '1.6rem',
     xl: '2.0rem',
   },
+
+  /**
+   * font family の valiation
+   */
   font: {
     reqular: 'Noto Sans JP',
   },

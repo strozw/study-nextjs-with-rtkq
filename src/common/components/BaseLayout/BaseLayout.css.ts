@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css'
 
-import { vars } from '@/common/style/theme.css'
+import { screens, vars } from '@/common/style/theme.css'
 
 export const wrapper = style({
   display: 'flex',
@@ -8,6 +8,13 @@ export const wrapper = style({
   width: '100%',
   minHeight: '100dvh',
   backgroundColor: vars.color.common.baseLayout.bg,
+
+  '@media': {
+    [`screen and (min-width: ${screens.pc})`]: {
+      width: 'auto',
+      margin: '0 50px',
+    },
+  },
 })
 
 export const header = style({})

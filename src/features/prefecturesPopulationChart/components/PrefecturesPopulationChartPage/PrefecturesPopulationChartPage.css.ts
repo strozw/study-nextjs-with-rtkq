@@ -6,4 +6,5 @@ export const wrapper = style({})
 
 export const section = style({
   padding: vars.spaces.s,
+  margin: `${vars.spaces.l}`,
 })

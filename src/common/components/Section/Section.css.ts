@@ -7,7 +7,7 @@ export const wrapper = style({
   backgroundColor: vars.color.common.section.bg,
   fontSize: vars.fontSizes.m,
   boxShadow: `0 0px 1px ${vars.color.common.section.shadow}`,
-  width: '100%',
+  width: 'auto',
 })
 
 export const heading = style({
