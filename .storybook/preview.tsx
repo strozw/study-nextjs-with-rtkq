@@ -14,4 +14,7 @@ export const parameters: StoryParameters = {
       date: /Date$/,
     },
   },
+  backgrounds: {
+    default: 'light',
+  },
 }
