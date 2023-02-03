@@ -21,6 +21,6 @@ export const Default: StoryObj = {
 
     const sectionView = within(section)
 
-    await expect(sectionView.getByLink('都道府県別の人工推移')).toBeVisible()
+    await expect(sectionView.getByRole('link', { name: '都道府県別の人工推移' })).toBeVisible()
   },
 }
