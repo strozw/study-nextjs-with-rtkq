@@ -15,7 +15,7 @@ export const Default: StoryObj = {
   play: async context => {
     const view = within(context.canvasElement)
 
-    await expect(view.getByRole('region', { name: '都道府県別' })).toBeVisible()
+    await expect(view.getByRole('region', { name: '都道府県の選択' })).toBeVisible()
 
     await expect(view.getByRole('region', { name: '人口数' })).toBeVisible()
   },
