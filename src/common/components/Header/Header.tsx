@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+
 import * as style from './Header.css'
 
 export type HeaderProps = {
@@ -6,7 +7,7 @@ export type HeaderProps = {
 }
 
 export const Header = ({ title: children }: HeaderProps) => (
-  <div className={style.wrapperStyle}>
-    <h1 className={style.headingStyle}>{children}</h1>
+  <div className={style.wrapper}>
+    <h1 className={style.heading}>{children}</h1>
   </div>
 )
