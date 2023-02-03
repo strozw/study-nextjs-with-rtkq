@@ -15,7 +15,7 @@ export const Default: StoryObj = {
   play: async context => {
     const view = within(context.canvasElement)
 
-    const section = view.getByRole('region', { name: 'コンテンツ内容' })
+    const section = view.getByRole('region', { name: 'コンテンツ一覧' })
 
     await expect(section).toBeVisible()
 
