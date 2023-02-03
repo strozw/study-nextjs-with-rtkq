@@ -12,11 +12,11 @@ const meta: Meta = {
 export default meta
 
 export const Default: StoryObj = {
-  play: context => {
+  play: async context => {
     const view = within(context.canvasElement)
 
-    expect(view.getByRole('region', { name: '都道府県別' })).toBeVisible()
+    await expect(view.getByRole('region', { name: '都道府県別' })).toBeVisible()
 
-    expect(view.getByRole('region', { name: '人口数' })).toBeVisible()
+    await expect(view.getByRole('region', { name: '人口数' })).toBeVisible()
   },
 }

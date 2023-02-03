@@ -17,7 +17,7 @@ export const PrefecturesPopulationChartPage = () => {
   return (
     <BaseLayout className={style.wrapper} header={<Header title='都道府県別の人工推移' />}>
       <div>
-        <Section className={style.section} title='都道府県別'>
+        <Section className={style.section} title='都道府県の選択'>
           <PrefecturePicker />
         </Section>
 
