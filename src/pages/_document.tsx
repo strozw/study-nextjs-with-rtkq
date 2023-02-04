@@ -1,5 +1,6 @@
-import { themeClass } from '@/common/style/theme.css'
 import { Html, Head, Main, NextScript } from 'next/document'
+
+import { themeClass } from '@/common/style/theme.css'
 
 export default function Document() {
   return (

@@ -1,4 +1,5 @@
 import { AppProps } from 'next/app'
+
 import { AppShell } from '@/AppShell'
 import { wrapper } from '@/store'
 
