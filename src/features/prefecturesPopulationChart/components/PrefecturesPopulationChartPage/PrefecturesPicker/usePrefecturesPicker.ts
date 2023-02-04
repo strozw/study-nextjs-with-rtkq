@@ -1,17 +1,19 @@
 import { createContext, useCallback, useContext } from 'react'
 
-import { useTogglePrefectureId } from '@/features/prefecturesPopulationChart/store/hooks'
+import { useTogglePrefCode } from '@/features/prefecturesPopulationChart/store/hooks'
 import { usePrefectures } from '@/store/services/resasApi/hooks'
 
 import { PrefecturesPickerProps } from './PrefecturesPicker'
 
 export const UsePrefecturesPickerContext = createContext({
   usePrefectures,
-  useTogglePrefectureId,
+  useTogglePrefCode,
 })
 
 export const usePrefecturesPicker = () => {
-  const { usePrefectures, useTogglePrefectureId } = useContext(UsePrefecturesPickerContext)
+  const { usePrefectures, useTogglePrefCode: useTogglePrefectureId } = useContext(
+    UsePrefecturesPickerContext
+  )
 
   const { prefectures } = usePrefectures()
 

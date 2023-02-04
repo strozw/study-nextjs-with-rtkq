@@ -3,15 +3,12 @@ import { useMemo } from 'react'
 
 import { useAppDispatch, useAppSelector } from '@/store'
 
-import {
-  selectSelectedPrefecturesIds,
-  togglePrefectureId,
-} from './prefecturesPopulationChartPageSlice'
+import { selectSelectedPrefCodes, togglePrefCode } from './prefecturesPopulationChartPageSlice'
 
-export const useSelectedPrefecturesIds = () => useAppSelector(selectSelectedPrefecturesIds)
+export const useSelectedPrefecturesCodes = () => useAppSelector(selectSelectedPrefCodes)
 
-export const useTogglePrefectureId = () => {
+export const useTogglePrefCode = () => {
   const dispatch = useAppDispatch()
 
-  return useMemo(() => bindActionCreators(togglePrefectureId, dispatch), [dispatch])
+  return useMemo(() => bindActionCreators(togglePrefCode, dispatch), [dispatch])
 }
