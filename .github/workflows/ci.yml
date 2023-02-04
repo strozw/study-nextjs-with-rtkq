@@ -51,7 +51,7 @@ jobs:
         run: pnpm i --no-frozen-lockfile
 
       - name: run jest
-        run: pnpm jest --maxWorkers=2
+        run: pnpm jest --maxWorkers=2 --reporters="github-actions"
 
   component-test:
     needs: [setup]
