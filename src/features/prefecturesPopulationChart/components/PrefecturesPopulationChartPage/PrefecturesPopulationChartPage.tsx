@@ -1,15 +1,20 @@
-import { useContext, createContext } from 'react'
+import { useContext, createContext, ContextType } from 'react'
 
 import { BaseLayout } from '@/common/components/BaseLayout'
 import { Header } from '@/common/components/Header'
 import { Section } from '@/common/components/Section'
 
+import { PrefecturesPickerContainer } from './PrefecturesPicker'
 import * as style from './PrefecturesPopulationChartPage.css'
 
 export const PrefecturesPopulationChartPageContext = createContext({
-  PrefecturePicker: () => <form>PrefecturePicker</form>,
+  PrefecturePicker: PrefecturesPickerContainer,
   PopulationXYChart: () => <div>PopulationXYChart</div>,
 })
+
+export type PrefecturesPopulationChartPageContextValue = ContextType<
+  typeof PrefecturesPopulationChartPageContext
+>
 
 export const PrefecturesPopulationChartPage = () => {
   const { PrefecturePicker, PopulationXYChart } = useContext(PrefecturesPopulationChartPageContext)
