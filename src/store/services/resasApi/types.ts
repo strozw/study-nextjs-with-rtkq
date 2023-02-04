@@ -26,15 +26,15 @@ export type V1Response<R> = {
 /**
  * @see {@url https://opendata.resas-portal.go.jp/docs/api/v1/prefectures.html}
  */
-export type GetV1PrefecturesResponse = V1Response<{ prefCode: string; prefName: string }[]>
+export type GetV1PrefecturesResponse = V1Response<{ prefCode: number; prefName: string }[]>
 
 /**
  * @see {@url https://opendata.resas-portal.go.jp/docs/api/v1/population/composition/perYear.html}
  */
 export type GetV1PopulationCompositionPerYearParams = {
-  prefCode: string
-  cityCode: string
-  addArea?: string
+  prefCode: number
+  cityCode: number
+  addArea?: number
 }
 
 /**
@@ -74,3 +74,7 @@ export type GetV1PopulationCompositionPerYearResponse = V1Response<{
     }
   }[]
 }>
+
+export type Prefecture = GetV1PrefecturesResponse['result'][number]
+
+export type PopulationData = GetV1PopulationCompositionPerYearResponse['result']['data'][number]

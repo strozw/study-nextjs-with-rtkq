@@ -1,4 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import fetch from 'isomorphic-fetch'
 import { HYDRATE } from 'next-redux-wrapper'
 
 import {
@@ -7,11 +8,14 @@ import {
   GetV1PrefecturesResponse,
 } from './types'
 
+export const resasApiBaseUrl = 'https://opendata.resas-portal.go.jp'
+
 export const resasApi = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://opendata.resas-portal.go.jp',
+    fetchFn: fetch,
+    baseUrl: resasApiBaseUrl,
     headers: {
-      'X-API-KEY': String(process.env.RESAS_API_KEY),
+      'X-API-KEY': String(process.env.NEXT_PUBLIC_RESAS_API_KEY),
     },
   }),
 

@@ -1,6 +1,7 @@
-import { Meta, StoryObj } from '@storybook/react'
 import { expect } from '@storybook/jest'
+import { Meta, StoryObj } from '@storybook/react'
 import { within } from '@storybook/testing-library'
+
 import { Header, HeaderProps } from './Header'
 
 type Args = HeaderProps

@@ -1,5 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc.json",
+  "plugins": ["jest", "testing-library"],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -11,7 +12,9 @@
     "next",
     "next/core-web-vitals",
     "prettier",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:jest/recommended",
+    "plugin:testing-library/react"
   ],
   "settings": {
     "import/resolver": {
@@ -37,6 +40,12 @@
         "alphabetize": {
           "order": "asc"
         }
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
       }
     ]
   }
