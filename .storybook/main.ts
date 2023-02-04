@@ -15,6 +15,7 @@ export default {
       fastRefresh: true,
     },
   },
+  staticDirs: ['../public'],
   docs: {
     'autodocs': 'tag',
   },
