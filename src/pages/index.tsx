@@ -1,5 +1,5 @@
-import { HomePage } from '@/features/home/components/HomePage'
+import { IndexPage } from '@/features/index/components/IndexPage'
 
 export default function Page() {
-  return <HomePage />
+  return <IndexPage />
 }
