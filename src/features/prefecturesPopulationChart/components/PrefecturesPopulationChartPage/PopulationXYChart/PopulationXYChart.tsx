@@ -1,12 +1,21 @@
 import { ParentSize } from '@visx/responsive'
-import { AnimatedAxis, AnimatedGrid, XYChart } from '@visx/xychart'
-import { createContext, useContext } from 'react'
+import { AnimatedAxis, AnimatedGrid, Tooltip, XYChart } from '@visx/xychart'
+import { ContextType, createContext, useContext } from 'react'
+
+import {
+  populationXYChartXAccesor,
+  populationXYChartYAccesor,
+} from '@/features/prefecturesPopulationChart/helpers'
+
+import { PopulationData } from '@/store/services/resasApi'
 
 import { PrefLineSeriesContainer } from './PrefLineSeries'
 
 export const PopulationXYChartContext = createContext({
   PrefLineSeries: PrefLineSeriesContainer,
 })
+
+export type PopulationXYChartContextValue = ContextType<typeof PopulationXYChartContext>
 
 export type PopulationXYChartProps = {
   prefCodes: number[]
@@ -44,6 +53,20 @@ export const PopulationXYChart = ({ prefCodes }: PopulationXYChartProps) => {
             {prefCodes.map(prefCode => (
               <PrefLineSeries key={prefCode} prefCode={prefCode} />
             ))}
+
+            <Tooltip<PopulationData>
+              snapTooltipToDatumX
+              snapTooltipToDatumY
+              showVerticalCrosshair
+              showSeriesGlyphs
+              renderTooltip={({ tooltipData }) => (
+                <div>
+                  <div>{tooltipData?.nearestDatum?.key}</div>
+                  {populationXYChartXAccesor(tooltipData?.nearestDatum?.datum)}年{', '}
+                  {populationXYChartYAccesor(tooltipData?.nearestDatum?.datum)}人
+                </div>
+              )}
+            />
           </XYChart>
         )}
       </ParentSize>
