@@ -8,7 +8,13 @@ const nextConfig = {
     // appDir: true,
     esmExternals: 'loose',
   },
-  transpilePackages: ['@visx/scale', '@visx/xychart', '@visx/react-spring', '@visx/responsive'],
+  transpilePackages: [
+    'd3-scale',
+    '@visx/scale',
+    '@visx/xychart',
+    '@visx/react-spring',
+    '@visx/responsive',
+  ],
 }
 
 module.exports = withVanillaExtract(nextConfig)
