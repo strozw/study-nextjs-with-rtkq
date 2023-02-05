@@ -142,9 +142,12 @@ jobs:
           path: ./coverage/coverage-storybook.json
 
       - name: merge coverage
+        run: pnpm nyc report --reporter=html --reporter=lcov -t coverage --report-dir coverage
+
+      - name: output coverage
         run: |
-          pnpm nyc report --reporter=html --reporter=lcov -t coverage --report-dir coverage
-          pnpm nyc report -t ./coverage
+          echo "# Test Coverage :rocket:" >> $GITHUB_STEP_SUMMARY
+          pnpm nyc report -t ./coverage >> $GITHUB_STEP_SUMMARY
 
       - uses: actions/upload-artifact@v3
         with:
