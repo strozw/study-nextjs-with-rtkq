@@ -1,9 +1,7 @@
 import { createContext, useCallback, useContext } from 'react'
 
-import {
-  useSelectedPrefCodeColors,
-  useTogglePrefCode,
-} from '@/features/prefecturesPopulationChart/store/hooks'
+import { useSelectedPrefCodeColors } from '@/features/prefecturesPopulationChart/store/hooks/useSelectedPrefCodeColors'
+import { useTogglePrefCode } from '@/features/prefecturesPopulationChart/store/hooks/useTogglePrefCode'
 import { usePrefectures } from '@/store/services/resasApi/hooks'
 
 import { PrefecturesPickerProps } from './PrefecturesPicker'
@@ -11,16 +9,17 @@ import { PrefecturesPickerProps } from './PrefecturesPicker'
 export const UsePrefecturesPickerContext = createContext({
   usePrefectures,
   useTogglePrefCode,
+  useSelectedPrefCodeColors,
 })
 
 export const usePrefecturesPicker = () => {
-  const { usePrefectures, useTogglePrefCode: useTogglePrefectureId } = useContext(
+  const { usePrefectures, useTogglePrefCode, useSelectedPrefCodeColors } = useContext(
     UsePrefecturesPickerContext
   )
 
   const { prefectures } = usePrefectures()
 
-  const togglePrefectureId = useTogglePrefectureId()
+  const togglePrefectureId = useTogglePrefCode()
 
   const prefCodesColorsMap = useSelectedPrefCodeColors()
 
