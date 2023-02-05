@@ -143,7 +143,7 @@ jobs:
 
       - name: merge coverage
         run: |
-          pnpm coverage-report
+          pnpm nyc report --reporter=html --reporter=lcov -t coverage --report-dir coverage
           pnpm nyc report -t ./coverage
 
       - uses: actions/upload-artifact@v3
