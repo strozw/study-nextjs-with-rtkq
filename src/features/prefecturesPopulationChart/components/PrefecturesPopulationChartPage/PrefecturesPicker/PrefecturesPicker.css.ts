@@ -16,5 +16,10 @@ export const listItem = style({
   marginRight: '1em',
   width: '7em',
   paddingBottom: vars.spaces.s,
-  borderBottom: `solid ${vars.spaces.s} transparent`,
+  borderBottom: `solid ${vars.spaces.s}`,
+  selectors: {
+    '&:has(input:not(:checked))': {
+      borderBottomColor: 'transparent !important',
+    },
+  },
 })
