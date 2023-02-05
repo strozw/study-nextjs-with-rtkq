@@ -9,6 +9,7 @@ import {
 
 import { PopulationData } from '@/store/services/resasApi'
 
+import * as style from './PopulationXYChart.css'
 import { PrefLineSeriesContainer } from './PrefLineSeries'
 
 export const PopulationXYChartContext = createContext({
@@ -25,12 +26,12 @@ export const PopulationXYChart = ({ prefCodes }: PopulationXYChartProps) => {
   const { PrefLineSeries } = useContext(PopulationXYChartContext)
 
   return (
-    <div>
-      <ParentSize style={{ width: '100%', height: '500px' }}>
-        {parent => (
+    <ParentSize className={style.wrapper}>
+      {({ width, height }) =>
+        prefCodes.length ? (
           <XYChart
-            width={parent.width}
-            height={parent.height}
+            width={Math.max(width, 1000)}
+            height={height}
             xScale={{ type: 'band' }}
             yScale={{ type: 'linear' }}
             margin={{
@@ -68,8 +69,12 @@ export const PopulationXYChart = ({ prefCodes }: PopulationXYChartProps) => {
               )}
             />
           </XYChart>
-        )}
-      </ParentSize>
-    </div>
+        ) : (
+          <div className={style.empty}>
+            <span>選択した都道府県の人工推移が XY チャートで表示されます。</span>
+          </div>
+        )
+      }
+    </ParentSize>
   )
 }

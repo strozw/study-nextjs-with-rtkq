@@ -3,16 +3,23 @@ import { userEvent, within } from '@storybook/testing-library'
 
 import { Meta, StoryObj } from '.storybook/types'
 
+import { createPrefCodesColorMap } from '@/features/prefecturesPopulationChart/helpers'
 import { prefecturesMock } from '@/store/services/resasApi/test/mocks/data/prefectures'
 
 import { PrefecturesPicker, PrefecturesPickerProps } from './PrefecturesPicker'
 
 type Args = PrefecturesPickerProps
 
+const prefCodesColorsMap = createPrefCodesColorMap(
+  prefecturesMock.map(({ prefCode }) => prefCode),
+  prefecturesMock.length
+)
+
 const meta: Meta<Args> = {
   component: PrefecturesPicker,
   args: {
     prefectures: prefecturesMock,
+    prefCodesColorsMap,
   },
   argTypes: {
     onChangeCheckbox: { action: true },

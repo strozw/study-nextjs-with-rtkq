@@ -13,5 +13,13 @@ export const wrapper = style({
 
 export const listItem = style({
   margin: vars.spaces.s,
-  width: '8em',
+  marginRight: '1em',
+  width: '7em',
+  paddingBottom: vars.spaces.s,
+  borderBottom: `solid ${vars.spaces.s}`,
+  selectors: {
+    '&:has(input:not(:checked))': {
+      borderBottomColor: 'transparent !important',
+    },
+  },
 })

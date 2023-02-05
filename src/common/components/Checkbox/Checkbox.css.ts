@@ -22,7 +22,7 @@ export const input = style({
   height: '1.15em',
   border: `0.15em solid ${vars.color.black}`,
   borderRadius: '0.15em',
-  transform: 'translateY(-0.075em)',
+  transform: 'translateY(0.05em)',
 
   display: 'grid',
   placeContent: 'center',

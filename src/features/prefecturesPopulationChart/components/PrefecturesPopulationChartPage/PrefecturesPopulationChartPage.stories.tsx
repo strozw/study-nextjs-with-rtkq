@@ -6,6 +6,9 @@ import { Meta, StoryObj } from '.storybook/types'
 
 import { prefecturesMock } from '@/store/services/resasApi/test/mocks/data/prefectures'
 
+import { createPrefCodesColorMap } from '../../helpers'
+
+import { PopulationXYChart, PopulationXYChartContext } from './PopulationXYChart'
 import { PrefecturesPicker } from './PrefecturesPicker'
 import {
   PrefecturesPopulationChartPage,
@@ -17,6 +20,10 @@ type Params = {
   contextValue?: PrefecturesPopulationChartPageContextValue
 }
 
+const prefCodes = prefecturesMock.map(({ prefCode }) => prefCode)
+
+const prefCodesColorsMap = createPrefCodesColorMap(prefCodes, prefecturesMock.length)
+
 const meta: Meta<any, Params> = {
   component: PrefecturesPopulationChartPage,
   parameters: {
@@ -25,11 +32,22 @@ const meta: Meta<any, Params> = {
         return (
           <PrefecturesPicker
             prefectures={prefecturesMock}
+            prefCodesColorsMap={prefCodesColorsMap}
             onChangeCheckbox={action('onChangeCheckbox')}
           />
         )
       },
-      PopulationXYChart: () => <>aaaa</>,
+      PopulationXYChart: () => {
+        return (
+          <PopulationXYChartContext.Provider
+            value={{
+              PrefLineSeries: () => <></>,
+            }}
+          >
+            <PopulationXYChart prefCodes={[]} />
+          </PopulationXYChartContext.Provider>
+        )
+      },
     },
   },
   decorators: [
@@ -49,8 +67,8 @@ export const Default: StoryObj = {
   play: async context => {
     const view = within(context.canvasElement)
 
-    await expect(view.getByRole('region', { name: '都道府県の選択' })).toBeVisible()
+    expect(view.getByRole('region', { name: '都道府県の選択' })).toBeVisible()
 
-    await expect(view.getByRole('region', { name: '人口数' })).toBeVisible()
+    expect(view.getByRole('region', { name: '人口数' })).toBeVisible()
   },
 }
