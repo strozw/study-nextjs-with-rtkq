@@ -48,6 +48,7 @@ export const selectSelectedPrefCodes = (state: RootState) =>
 export const selectSelectedPrefCodesColorMap = createSelector(
   selectSelectedPrefCodes,
   selectPrefecturesNum,
-  (prefCodes, maxPrefNum) =>
-    new Map(prefCodes.map(prefCode => [prefCode, interpolateRainbow(prefCode / maxPrefNum)]))
+  (prefCodes, maxPrefNum) => {
+    return new Map(prefCodes.map(prefCode => [prefCode, interpolateRainbow(prefCode / maxPrefNum)]))
+  }
 )

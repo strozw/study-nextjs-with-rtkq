@@ -15,4 +15,6 @@ export const listItem = style({
   margin: vars.spaces.s,
   marginRight: '1em',
   width: '7em',
+  paddingBottom: vars.spaces.s,
+  borderBottom: `solid ${vars.spaces.s} transparent`,
 })
