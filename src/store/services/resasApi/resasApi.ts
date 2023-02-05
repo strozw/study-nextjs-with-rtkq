@@ -41,6 +41,11 @@ export const resasApi = createApi({
   }),
 })
 
-export const { useGetV1PrefecturesQuery, useLazyGetV1PrefecturesQuery } = resasApi
+export const {
+  useGetV1PrefecturesQuery,
+  useLazyGetV1PrefecturesQuery,
+  useGetV1PoplulationCompositionPerYearQuery,
+  useLazyGetV1PoplulationCompositionPerYearQuery,
+} = resasApi
 
 export const { getV1Prefectures, getV1PoplulationCompositionPerYear } = resasApi.endpoints
