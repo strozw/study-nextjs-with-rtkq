@@ -6,7 +6,9 @@ const withVanillaExtract = createVanillaExtractPlugin()
 const nextConfig = {
   experimental: {
     // appDir: true,
+    esmExternals: 'loose',
   },
+  transpilePackages: ['@visx/scale', '@visx/xychart', '@visx/react-spring', '@visx/responsive'],
 }
 
 module.exports = withVanillaExtract(nextConfig)
