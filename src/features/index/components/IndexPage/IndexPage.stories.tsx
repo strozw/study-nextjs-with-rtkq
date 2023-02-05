@@ -3,10 +3,10 @@ import { within } from '@storybook/testing-library'
 
 import { Meta, StoryObj } from '.storybook/types'
 
-import { HomePage } from './HomePage'
+import { IndexPage } from './IndexPage'
 
 const meta: Meta = {
-  component: HomePage,
+  component: IndexPage,
 }
 
 export default meta

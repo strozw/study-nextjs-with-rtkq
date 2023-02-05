@@ -1,7 +1,10 @@
-import { Meta, StoryObj } from '.storybook/types'
 import { expect } from '@storybook/jest'
 import { within } from '@storybook/testing-library'
+
+import { Meta, StoryObj } from '.storybook/types'
+
 import { Header } from '../Header'
+
 import { BaseLayout, BaseLayoutProps } from './BaseLayout'
 
 type Args = BaseLayoutProps
@@ -25,15 +28,15 @@ export const Default: Story = {
 
     const banner = view.getByRole('banner')
 
-    await expect(banner).toBeVisible()
+    expect(banner).toBeVisible()
 
-    await expect(banner).toHaveTextContent('header')
+    expect(banner).toHaveTextContent('header')
 
     const main = view.getByRole('main')
 
-    await expect(main).toBeVisible()
+    expect(main).toBeVisible()
 
-    await expect(main).toHaveTextContent('contents')
+    expect(main).toHaveTextContent('contents')
   },
 }
 
@@ -49,6 +52,6 @@ export const WithHeader: Story = {
 
     const bannerView = within(banner)
 
-    await expect(bannerView.getByRole('heading', { name: 'Title' })).toBeVisible()
+    expect(bannerView.getByRole('heading', { name: 'Title' })).toBeVisible()
   },
 }

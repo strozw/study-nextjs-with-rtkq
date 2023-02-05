@@ -5,11 +5,11 @@ import { Header } from '@/common/components/Header'
 import { Section } from '@/common/components/Section'
 import { routingPaths } from '@/routes'
 
-import * as style from './HomePage.css'
+import * as style from './IndexPage.css'
 
-export const HomePage = () => {
+export const IndexPage = () => {
   return (
-    <BaseLayout header={<Header title='Home' />}>
+    <BaseLayout header={<Header title='インデックス' />}>
       <Section title='コンテンツ一覧' className={style.section}>
         <ul className={style.linkList}>
           <li>
