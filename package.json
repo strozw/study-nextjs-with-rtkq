@@ -18,7 +18,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test-storybook": "test-storybook",
-    "ci-test-storybook": "concurrently -k -s first -n \"SERVE,TEST\" -c \"magenta,blue\" \"pnpm http-server storybook-static --port 6006 --silent\" \"pnpm test-storybook\""
+    "ci-test-storybook": "concurrently -k -s first -n \"SERVE,TEST\" -c \"magenta,blue\" \"pnpm http-server storybook-static --port 6006 --silent\" \"pnpm test-storybook\"",
+    "versioning": "standard-version"
   },
   "config": {
     "commitizen": {
@@ -97,6 +98,7 @@
     "msw": "^1.0.0",
     "postcss-loader": "^7.0.2",
     "prettier": "^2.8.3",
+    "standard-version": "^9.5.0",
     "storybook": "7.0.0-beta.36",
     "style-loader": "^3.3.1"
   },
