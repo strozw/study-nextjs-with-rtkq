@@ -50,8 +50,13 @@ jobs:
       - name: Install dependencies
         run: pnpm i --no-frozen-lockfile
 
-      - name: run jest
+      - name: run jest --coverage
         run: pnpm jest --maxWorkers=2 --reporters="github-actions"
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: jest-coverage
+          path: ./coverage
 
   component-test:
     needs: [setup]
@@ -98,3 +103,50 @@ jobs:
 
       - name: Run Storybook tests
         run: pnpm ci-test-storybook
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: storybook-coverage-json
+          path: ./coverage/storybook/coverage-storybook.json
+
+  reports:
+    needs: [jest, component-test]
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          run_install: false
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: '.node-version'
+          cache: 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml'
+
+      - name: Install dependencies
+        run: pnpm i --no-frozen-lockfile
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: jest-coverage
+          path: ./coverage
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: storybook-coverage-json
+          path: ./coverage/coverage-storybook.json
+
+      - name: report coverage
+        run: pnpm nyc report --reporter=html --reporter=lcov -t coverage --report-dir coverage
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: coverage
+          path: ./coverage
+
+      - uses: romeovs/lcov-reporter-action@v0.2.16

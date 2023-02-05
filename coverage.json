@@ -1,0 +1,6042 @@
+{
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/store/prefecturesPopulationChartPageSlice.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/store/prefecturesPopulationChartPageSlice.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 13
+        },
+        "end": {
+          "line": 13,
+          "column": 55
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 13
+        },
+        "end": {
+          "line": 17,
+          "column": 48
+        }
+      },
+      "2": {
+        "start": {
+          "line": 43,
+          "column": 15
+        },
+        "end": {
+          "line": 43,
+          "column": 29
+        }
+      },
+      "3": {
+        "start": {
+          "line": 45,
+          "column": 13
+        },
+        "end": {
+          "line": 45,
+          "column": 36
+        }
+      },
+      "4": {
+        "start": {
+          "line": 48,
+          "column": 13
+        },
+        "end": {
+          "line": 48,
+          "column": 44
+        }
+      },
+      "5": {
+        "start": {
+          "line": 1,
+          "column": 59
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 3,
+          "column": 35
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 7,
+          "column": 37
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 13,
+          "column": 95
+        },
+        "end": {
+          "line": 15,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 51
+        },
+        "end": {
+          "line": 41,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 25,
+          "column": 36
+        },
+        "end": {
+          "line": 25,
+          "column": 50
+        }
+      },
+      "11": {
+        "start": {
+          "line": 26,
+          "column": 20
+        },
+        "end": {
+          "line": 26,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 28,
+          "column": 6
+        },
+        "end": {
+          "line": 36,
+          "column": 7
+        }
+      },
+      "13": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 9
+        }
+      },
+      "14": {
+        "start": {
+          "line": 30,
+          "column": 10
+        },
+        "end": {
+          "line": 30,
+          "column": null
+        }
+      },
+      "15": {
+        "start": {
+          "line": 33,
+          "column": 8
+        },
+        "end": {
+          "line": 35,
+          "column": 9
+        }
+      },
+      "16": {
+        "start": {
+          "line": 34,
+          "column": 10
+        },
+        "end": {
+          "line": 34,
+          "column": null
+        }
+      },
+      "17": {
+        "start": {
+          "line": 38,
+          "column": 6
+        },
+        "end": {
+          "line": 38,
+          "column": null
+        }
+      },
+      "18": {
+        "start": {
+          "line": 43,
+          "column": 34
+        },
+        "end": {
+          "line": 43,
+          "column": 77
+        }
+      },
+      "19": {
+        "start": {
+          "line": 45,
+          "column": 39
+        },
+        "end": {
+          "line": 46,
+          "column": 56
+        }
+      },
+      "20": {
+        "start": {
+          "line": 46,
+          "column": 2
+        },
+        "end": {
+          "line": 46,
+          "column": 56
+        }
+      },
+      "21": {
+        "start": {
+          "line": 48,
+          "column": 47
+        },
+        "end": {
+          "line": 53,
+          "column": null
+        }
+      },
+      "22": {
+        "start": {
+          "line": 52,
+          "column": 4
+        },
+        "end": {
+          "line": 52,
+          "column": null
+        }
+      },
+      "23": {
+        "start": {
+          "line": 52,
+          "column": 45
+        },
+        "end": {
+          "line": 52,
+          "column": null
+        }
+      },
+      "24": {
+        "start": {
+          "line": 13,
+          "column": 95
+        },
+        "end": {
+          "line": 15,
+          "column": 1
+        }
+      },
+      "25": {
+        "start": {
+          "line": 17,
+          "column": 51
+        },
+        "end": {
+          "line": 41,
+          "column": 2
+        }
+      },
+      "26": {
+        "start": {
+          "line": 26,
+          "column": 20
+        },
+        "end": {
+          "line": 26,
+          "column": 61
+        }
+      },
+      "27": {
+        "start": {
+          "line": 30,
+          "column": 10
+        },
+        "end": {
+          "line": 30,
+          "column": 48
+        }
+      },
+      "28": {
+        "start": {
+          "line": 34,
+          "column": 10
+        },
+        "end": {
+          "line": 34,
+          "column": 50
+        }
+      },
+      "29": {
+        "start": {
+          "line": 38,
+          "column": 6
+        },
+        "end": {
+          "line": 38,
+          "column": 18
+        }
+      },
+      "30": {
+        "start": {
+          "line": 48,
+          "column": 47
+        },
+        "end": {
+          "line": 54,
+          "column": 1
+        }
+      },
+      "31": {
+        "start": {
+          "line": 52,
+          "column": 4
+        },
+        "end": {
+          "line": 52,
+          "column": 100
+        }
+      },
+      "32": {
+        "start": {
+          "line": 52,
+          "column": 45
+        },
+        "end": {
+          "line": 52,
+          "column": 98
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 55
+          },
+          "end": {
+            "line": 13,
+            "column": 95
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 13
+          },
+          "end": {
+            "line": 13,
+            "column": 55
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 48
+          },
+          "end": {
+            "line": 17,
+            "column": 51
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 13
+          },
+          "end": {
+            "line": 17,
+            "column": 48
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 43,
+            "column": 29
+          },
+          "end": {
+            "line": 43,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 15
+          },
+          "end": {
+            "line": 43,
+            "column": 29
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 36
+          },
+          "end": {
+            "line": 45,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 13
+          },
+          "end": {
+            "line": 45,
+            "column": 36
+          }
+        }
+      },
+      "4": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 44
+          },
+          "end": {
+            "line": 48,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 13
+          },
+          "end": {
+            "line": 48,
+            "column": 44
+          }
+        }
+      },
+      "5": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 20
+          },
+          "end": {
+            "line": 21,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 9
+          },
+          "end": {
+            "line": 39,
+            "column": null
+          }
+        }
+      },
+      "6": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 39
+          },
+          "end": {
+            "line": 45,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 2
+          },
+          "end": {
+            "line": 46,
+            "column": 56
+          }
+        }
+      },
+      "7": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 51,
+            "column": 2
+          },
+          "end": {
+            "line": 51,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 29
+          },
+          "end": {
+            "line": 53,
+            "column": null
+          }
+        }
+      },
+      "8": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 52,
+            "column": 33
+          },
+          "end": {
+            "line": 52,
+            "column": 45
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 45
+          },
+          "end": {
+            "line": 52,
+            "column": null
+          }
+        }
+      },
+      "9": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 20
+          },
+          "end": {
+            "line": 21,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 9
+          },
+          "end": {
+            "line": 39,
+            "column": 5
+          }
+        },
+        "line": 24
+      },
+      "10": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 51,
+            "column": 2
+          },
+          "end": {
+            "line": 51,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 29
+          },
+          "end": {
+            "line": 53,
+            "column": 3
+          }
+        },
+        "line": 51
+      },
+      "11": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 52,
+            "column": 33
+          },
+          "end": {
+            "line": 52,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 45
+          },
+          "end": {
+            "line": 52,
+            "column": 98
+          }
+        },
+        "line": 52
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 6
+          },
+          "end": {
+            "line": 36,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 28,
+              "column": 6
+            },
+            "end": {
+              "line": 36,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 32,
+              "column": 13
+            },
+            "end": {
+              "line": 36,
+              "column": 7
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 8
+          },
+          "end": {
+            "line": 31,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 29,
+              "column": 8
+            },
+            "end": {
+              "line": 31,
+              "column": 9
+            }
+          }
+        ]
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 8
+          },
+          "end": {
+            "line": 35,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 33,
+              "column": 8
+            },
+            "end": {
+              "line": 35,
+              "column": 9
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 0,
+      "1": 4,
+      "2": 4,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 4,
+      "11": 4,
+      "12": 4,
+      "13": 3,
+      "14": 2,
+      "15": 1,
+      "16": 1,
+      "17": 4,
+      "18": 17,
+      "19": 17,
+      "20": 0,
+      "21": 1,
+      "22": 0,
+      "23": 0,
+      "24": 16,
+      "25": 16,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 16,
+      "31": 0,
+      "32": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 4,
+      "2": 4,
+      "3": 0,
+      "4": 0,
+      "5": 4,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "b": {
+      "0": [3, 1],
+      "1": [2, 0],
+      "2": [1, 0]
+    }
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/hooks.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/hooks.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 13
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 13
+        },
+        "end": {
+          "line": 9,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 13
+        },
+        "end": {
+          "line": 11,
+          "column": 27
+        }
+      },
+      "3": {
+        "start": {
+          "line": 13,
+          "column": 13
+        },
+        "end": {
+          "line": 13,
+          "column": 30
+        }
+      },
+      "4": {
+        "start": {
+          "line": 1,
+          "column": 35
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 2,
+          "column": 24
+        },
+        "end": {
+          "line": 2,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 3,
+          "column": 73
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 5,
+          "column": 65
+        },
+        "end": {
+          "line": 5,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 7,
+          "column": 27
+        },
+        "end": {
+          "line": 7,
+          "column": 35
+        }
+      },
+      "9": {
+        "start": {
+          "line": 9,
+          "column": 30
+        },
+        "end": {
+          "line": 9,
+          "column": 41
+        }
+      },
+      "10": {
+        "start": {
+          "line": 11,
+          "column": 30
+        },
+        "end": {
+          "line": 11,
+          "column": 41
+        }
+      },
+      "11": {
+        "start": {
+          "line": 13,
+          "column": 33
+        },
+        "end": {
+          "line": 17,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 14,
+          "column": 19
+        },
+        "end": {
+          "line": 14,
+          "column": null
+        }
+      },
+      "13": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "14": {
+        "start": {
+          "line": 16,
+          "column": 23
+        },
+        "end": {
+          "line": 16,
+          "column": 69
+        }
+      },
+      "15": {
+        "start": {
+          "line": 7,
+          "column": 27
+        },
+        "end": {
+          "line": 7,
+          "column": 53
+        }
+      },
+      "16": {
+        "start": {
+          "line": 9,
+          "column": 30
+        },
+        "end": {
+          "line": 9,
+          "column": 76
+        }
+      },
+      "17": {
+        "start": {
+          "line": 11,
+          "column": 30
+        },
+        "end": {
+          "line": 11,
+          "column": 62
+        }
+      },
+      "18": {
+        "start": {
+          "line": 13,
+          "column": 33
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "19": {
+        "start": {
+          "line": 14,
+          "column": 19
+        },
+        "end": {
+          "line": 14,
+          "column": 35
+        }
+      },
+      "20": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 80
+        }
+      },
+      "21": {
+        "start": {
+          "line": 16,
+          "column": 23
+        },
+        "end": {
+          "line": 16,
+          "column": 67
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 24
+          },
+          "end": {
+            "line": 7,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 13
+          },
+          "end": {
+            "line": 7,
+            "column": 24
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 27
+          },
+          "end": {
+            "line": 9,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 13
+          },
+          "end": {
+            "line": 9,
+            "column": 27
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 13
+          },
+          "end": {
+            "line": 11,
+            "column": 27
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 30
+          },
+          "end": {
+            "line": 13,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 13
+          },
+          "end": {
+            "line": 13,
+            "column": 30
+          }
+        }
+      },
+      "4": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 33
+          },
+          "end": {
+            "line": 13,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 39
+          },
+          "end": {
+            "line": 17,
+            "column": null
+          }
+        }
+      },
+      "5": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 17
+          },
+          "end": {
+            "line": 16,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 23
+          },
+          "end": {
+            "line": 16,
+            "column": 69
+          }
+        }
+      },
+      "6": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 33
+          },
+          "end": {
+            "line": 13,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 39
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "7": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 17
+          },
+          "end": {
+            "line": 16,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 23
+          },
+          "end": {
+            "line": 16,
+            "column": 67
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 16,
+      "16": 16,
+      "17": 16,
+      "18": 16,
+      "19": 0,
+      "20": 0,
+      "21": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "b": {}
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/index.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 14
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 14
+        },
+        "end": {
+          "line": 2,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {},
+    "b": {}
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/store.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/store.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 14,
+          "column": 13
+        },
+        "end": {
+          "line": 14,
+          "column": 27
+        }
+      },
+      "1": {
+        "start": {
+          "line": 46,
+          "column": 13
+        },
+        "end": {
+          "line": 46,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 48,
+          "column": 13
+        },
+        "end": {
+          "line": 48,
+          "column": 20
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 30
+        },
+        "end": {
+          "line": 8,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 52
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 25
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 14,
+          "column": 30
+        },
+        "end": {
+          "line": 34,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 16
+        },
+        "end": {
+          "line": 25,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": null
+        }
+      },
+      "11": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 46,
+          "column": 30
+        },
+        "end": {
+          "line": 46,
+          "column": 41
+        }
+      },
+      "13": {
+        "start": {
+          "line": 48,
+          "column": 23
+        },
+        "end": {
+          "line": 48,
+          "column": null
+        }
+      },
+      "14": {
+        "start": {
+          "line": 14,
+          "column": 30
+        },
+        "end": {
+          "line": 34,
+          "column": 1
+        }
+      },
+      "15": {
+        "start": {
+          "line": 15,
+          "column": 29
+        },
+        "end": {
+          "line": 15,
+          "column": 55
+        }
+      },
+      "16": {
+        "start": {
+          "line": 17,
+          "column": 16
+        },
+        "end": {
+          "line": 25,
+          "column": 4
+        }
+      },
+      "17": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": 95
+        }
+      },
+      "18": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": 14
+        }
+      },
+      "19": {
+        "start": {
+          "line": 46,
+          "column": 30
+        },
+        "end": {
+          "line": 46,
+          "column": 65
+        }
+      },
+      "20": {
+        "start": {
+          "line": 48,
+          "column": 23
+        },
+        "end": {
+          "line": 48,
+          "column": 79
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 27
+          },
+          "end": {
+            "line": 14,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 13
+          },
+          "end": {
+            "line": 14,
+            "column": 27
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 46,
+            "column": 27
+          },
+          "end": {
+            "line": 46,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 13
+          },
+          "end": {
+            "line": 46,
+            "column": 27
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 20
+          },
+          "end": {
+            "line": 48,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 13
+          },
+          "end": {
+            "line": 48,
+            "column": 20
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 30
+          },
+          "end": {
+            "line": 14,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 36
+          },
+          "end": {
+            "line": 34,
+            "column": null
+          }
+        }
+      },
+      "4": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 16
+          },
+          "end": {
+            "line": 23,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 6
+          },
+          "end": {
+            "line": 24,
+            "column": null
+          }
+        }
+      },
+      "5": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 30
+          },
+          "end": {
+            "line": 14,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 36
+          },
+          "end": {
+            "line": 34,
+            "column": 1
+          }
+        },
+        "line": 14
+      },
+      "6": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 16
+          },
+          "end": {
+            "line": 23,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 6
+          },
+          "end": {
+            "line": 24,
+            "column": 95
+          }
+        },
+        "line": 24
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 2,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 1,
+      "13": 1,
+      "14": 16,
+      "15": 16,
+      "16": 16,
+      "17": 16,
+      "18": 16,
+      "19": 16,
+      "20": 16
+    },
+    "f": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 2,
+      "5": 16,
+      "6": 16
+    },
+    "b": {}
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/consts.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/consts.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 29
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 13
+        },
+        "end": {
+          "line": 5,
+          "column": 32
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 46
+        },
+        "end": {
+          "line": 3,
+          "column": 48
+        }
+      },
+      "3": {
+        "start": {
+          "line": 5,
+          "column": 53
+        },
+        "end": {
+          "line": 5,
+          "column": 55
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 29
+          },
+          "end": {
+            "line": 3,
+            "column": 46
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 13
+          },
+          "end": {
+            "line": 3,
+            "column": 29
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 32
+          },
+          "end": {
+            "line": 5,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 13
+          },
+          "end": {
+            "line": 5,
+            "column": 32
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 17,
+      "3": 17
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {}
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/index.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 14
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 14
+        },
+        "end": {
+          "line": 2,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 14
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "f": {},
+    "b": {}
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/resasApi.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/resasApi.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 13
+        },
+        "end": {
+          "line": 11,
+          "column": 28
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 13
+        },
+        "end": {
+          "line": 13,
+          "column": 21
+        }
+      },
+      "2": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 45,
+          "column": 26
+        }
+      },
+      "3": {
+        "start": {
+          "line": 46,
+          "column": 2
+        },
+        "end": {
+          "line": 46,
+          "column": 30
+        }
+      },
+      "4": {
+        "start": {
+          "line": 47,
+          "column": 2
+        },
+        "end": {
+          "line": 47,
+          "column": 44
+        }
+      },
+      "5": {
+        "start": {
+          "line": 48,
+          "column": 2
+        },
+        "end": {
+          "line": 48,
+          "column": 48
+        }
+      },
+      "6": {
+        "start": {
+          "line": 51,
+          "column": 15
+        },
+        "end": {
+          "line": 51,
+          "column": 31
+        }
+      },
+      "7": {
+        "start": {
+          "line": 51,
+          "column": 33
+        },
+        "end": {
+          "line": 51,
+          "column": 67
+        }
+      },
+      "8": {
+        "start": {
+          "line": 1,
+          "column": 42
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 2,
+          "column": 18
+        },
+        "end": {
+          "line": 2,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 3,
+          "column": 24
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      },
+      "11": {
+        "start": {
+          "line": 11,
+          "column": 31
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 13,
+          "column": 24
+        },
+        "end": {
+          "line": 42,
+          "column": null
+        }
+      },
+      "13": {
+        "start": {
+          "line": 23,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 5
+        }
+      },
+      "14": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": null
+        }
+      },
+      "15": {
+        "start": {
+          "line": 30,
+          "column": 25
+        },
+        "end": {
+          "line": 41,
+          "column": null
+        }
+      },
+      "16": {
+        "start": {
+          "line": 32,
+          "column": 20
+        },
+        "end": {
+          "line": 32,
+          "column": null
+        }
+      },
+      "17": {
+        "start": {
+          "line": 39,
+          "column": 22
+        },
+        "end": {
+          "line": 39,
+          "column": null
+        }
+      },
+      "18": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": null
+        }
+      },
+      "19": {
+        "start": {
+          "line": 51,
+          "column": 72
+        },
+        "end": {
+          "line": 51,
+          "column": 90
+        }
+      },
+      "20": {
+        "start": {
+          "line": 11,
+          "column": 31
+        },
+        "end": {
+          "line": 11,
+          "column": 68
+        }
+      },
+      "21": {
+        "start": {
+          "line": 13,
+          "column": 24
+        },
+        "end": {
+          "line": 42,
+          "column": 2
+        }
+      },
+      "22": {
+        "start": {
+          "line": 24,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": 40
+        }
+      },
+      "23": {
+        "start": {
+          "line": 30,
+          "column": 25
+        },
+        "end": {
+          "line": 41,
+          "column": 3
+        }
+      },
+      "24": {
+        "start": {
+          "line": 32,
+          "column": 20
+        },
+        "end": {
+          "line": 32,
+          "column": 49
+        }
+      },
+      "25": {
+        "start": {
+          "line": 39,
+          "column": 22
+        },
+        "end": {
+          "line": 39,
+          "column": 84
+        }
+      },
+      "26": {
+        "start": {
+          "line": 49,
+          "column": 4
+        },
+        "end": {
+          "line": 49,
+          "column": 12
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 28
+          },
+          "end": {
+            "line": 11,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 13
+          },
+          "end": {
+            "line": 11,
+            "column": 28
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 21
+          },
+          "end": {
+            "line": 13,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 13
+          },
+          "end": {
+            "line": 13,
+            "column": 21
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 26
+          },
+          "end": {
+            "line": 45,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 2
+          },
+          "end": {
+            "line": 45,
+            "column": 26
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 46,
+            "column": 30
+          },
+          "end": {
+            "line": 46,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 2
+          },
+          "end": {
+            "line": 46,
+            "column": 30
+          }
+        }
+      },
+      "4": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 47,
+            "column": 44
+          },
+          "end": {
+            "line": 47,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 47,
+            "column": 2
+          },
+          "end": {
+            "line": 47,
+            "column": 44
+          }
+        }
+      },
+      "5": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 48
+          },
+          "end": {
+            "line": 48,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 2
+          },
+          "end": {
+            "line": 48,
+            "column": 48
+          }
+        }
+      },
+      "6": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 51,
+            "column": 31
+          },
+          "end": {
+            "line": 51,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 15
+          },
+          "end": {
+            "line": 51,
+            "column": 31
+          }
+        }
+      },
+      "7": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 51,
+            "column": 67
+          },
+          "end": {
+            "line": 51,
+            "column": 69
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 33
+          },
+          "end": {
+            "line": 51,
+            "column": 67
+          }
+        }
+      },
+      "8": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 50
+          },
+          "end": {
+            "line": 26,
+            "column": null
+          }
+        }
+      },
+      "9": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 13
+          },
+          "end": {
+            "line": 30,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 25
+          },
+          "end": {
+            "line": 41,
+            "column": null
+          }
+        }
+      },
+      "10": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 13
+          },
+          "end": {
+            "line": 32,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 20
+          },
+          "end": {
+            "line": 32,
+            "column": null
+          }
+        }
+      },
+      "11": {
+        "name": "(anonymous_13)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 13
+          },
+          "end": {
+            "line": 39,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 22
+          },
+          "end": {
+            "line": 39,
+            "column": null
+          }
+        }
+      },
+      "12": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 50
+          },
+          "end": {
+            "line": 26,
+            "column": 3
+          }
+        },
+        "line": 22
+      },
+      "13": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 13
+          },
+          "end": {
+            "line": 30,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 25
+          },
+          "end": {
+            "line": 41,
+            "column": 3
+          }
+        },
+        "line": 30
+      },
+      "14": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 13
+          },
+          "end": {
+            "line": 32,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 20
+          },
+          "end": {
+            "line": 32,
+            "column": 49
+          }
+        },
+        "line": 32
+      },
+      "15": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 13
+          },
+          "end": {
+            "line": 39,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 22
+          },
+          "end": {
+            "line": 39,
+            "column": 84
+          }
+        },
+        "line": 39
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 4
+          },
+          "end": {
+            "line": 25,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 4
+            },
+            "end": {
+              "line": 25,
+              "column": 5
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 0,
+      "1": 6,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 196,
+      "14": 0,
+      "15": 1,
+      "16": 0,
+      "17": 0,
+      "18": 1,
+      "19": 17,
+      "20": 16,
+      "21": 16,
+      "22": 0,
+      "23": 16,
+      "24": 0,
+      "25": 0,
+      "26": 16
+    },
+    "f": {
+      "0": 0,
+      "1": 6,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 20,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 176,
+      "13": 16,
+      "14": 0,
+      "15": 0
+    },
+    "b": {
+      "0": [0, 176]
+    }
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/selectors.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/selectors.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 13
+        },
+        "end": {
+          "line": 7,
+          "column": 30
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 13
+        },
+        "end": {
+          "line": 12,
+          "column": 33
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 13
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      },
+      "3": {
+        "start": {
+          "line": 1,
+          "column": 31
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 3,
+          "column": 33
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 5,
+          "column": 33
+        },
+        "end": {
+          "line": 5,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 7,
+          "column": 33
+        },
+        "end": {
+          "line": 9,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 9,
+          "column": 12
+        },
+        "end": {
+          "line": 9,
+          "column": 51
+        }
+      },
+      "8": {
+        "start": {
+          "line": 12,
+          "column": 36
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 12,
+          "column": 79
+        },
+        "end": {
+          "line": 12,
+          "column": 91
+        }
+      },
+      "10": {
+        "start": {
+          "line": 14,
+          "column": 37
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "11": {
+        "start": {
+          "line": 16,
+          "column": 11
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 16,
+          "column": 57
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "13": {
+        "start": {
+          "line": 7,
+          "column": 33
+        },
+        "end": {
+          "line": 10,
+          "column": 1
+        }
+      },
+      "14": {
+        "start": {
+          "line": 12,
+          "column": 36
+        },
+        "end": {
+          "line": 12,
+          "column": 92
+        }
+      },
+      "15": {
+        "start": {
+          "line": 14,
+          "column": 37
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "16": {
+        "start": {
+          "line": 16,
+          "column": 11
+        },
+        "end": {
+          "line": 16,
+          "column": 79
+        }
+      },
+      "17": {
+        "start": {
+          "line": 16,
+          "column": 57
+        },
+        "end": {
+          "line": 16,
+          "column": 77
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 30
+          },
+          "end": {
+            "line": 7,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 13
+          },
+          "end": {
+            "line": 7,
+            "column": 30
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 33
+          },
+          "end": {
+            "line": 12,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 13
+          },
+          "end": {
+            "line": 12,
+            "column": 33
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 34
+          },
+          "end": {
+            "line": 14,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 13
+          },
+          "end": {
+            "line": 14,
+            "column": 34
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 12
+          },
+          "end": {
+            "line": 9,
+            "column": 51
+          }
+        }
+      },
+      "4": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 70
+          },
+          "end": {
+            "line": 12,
+            "column": 79
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 79
+          },
+          "end": {
+            "line": 12,
+            "column": 91
+          }
+        }
+      },
+      "5": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 2
+          },
+          "end": {
+            "line": 16,
+            "column": 11
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 11
+          },
+          "end": {
+            "line": 16,
+            "column": null
+          }
+        }
+      },
+      "6": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 29
+          },
+          "end": {
+            "line": 16,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 57
+          },
+          "end": {
+            "line": 16,
+            "column": null
+          }
+        }
+      },
+      "7": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 2
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 11
+          },
+          "end": {
+            "line": 16,
+            "column": 79
+          }
+        },
+        "line": 16
+      },
+      "8": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 29
+          },
+          "end": {
+            "line": 16,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 57
+          },
+          "end": {
+            "line": 16,
+            "column": 77
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 12
+          },
+          "end": {
+            "line": 9,
+            "column": 51
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 12
+            },
+            "end": {
+              "line": 9,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 35
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 12
+          },
+          "end": {
+            "line": 9,
+            "column": 51
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 12
+            },
+            "end": {
+              "line": 9,
+              "column": 31
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 35
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        ],
+        "line": 9
+      }
+    },
+    "s": {
+      "0": 0,
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 0,
+      "10": 1,
+      "11": 0,
+      "12": 0,
+      "13": 16,
+      "14": 16,
+      "15": 16,
+      "16": 0,
+      "17": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    "b": {
+      "0": [0, 0],
+      "1": [0, 0]
+    }
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/test/msw/mockServer.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/test/msw/mockServer.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 13
+        },
+        "end": {
+          "line": 3,
+          "column": 26
+        }
+      },
+      "1": {
+        "start": {
+          "line": 1,
+          "column": 28
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 26
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 13
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 13
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {}
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/AppShell.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/AppShell.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 14,
+          "column": 24
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 15,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 24
+          },
+          "end": {
+            "line": 14,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 64
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "line": 14
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 16,
+      "1": 20
+    },
+    "f": {
+      "0": 20
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8516315724f2c941f4fe4aee7e0c7ba9c33ade16"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/types.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/types.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5d37a1deab3d66e74c0e04253ae006b44ccfcffc"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/BaseLayout/BaseLayout.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/BaseLayout/BaseLayout.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 26
+        },
+        "end": {
+          "line": 20,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 26
+          },
+          "end": {
+            "line": 12,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 80
+          },
+          "end": {
+            "line": 20,
+            "column": 1
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 7
+    },
+    "f": {
+      "0": 7
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f6dc19a7d2fdcad4d5c31533889b30c2245ca55c"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/BaseLayout/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/BaseLayout/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5ba61608a2dd3968e5af0cbae032540b57d77d75"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Header/Header.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Header/Header.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 22
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": 8
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 22
+          },
+          "end": {
+            "line": 9,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": 8
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 6,
+      "1": 5
+    },
+    "f": {
+      "0": 5
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "bc30636956853c80e7f3ef24cf997523780c3e62"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Header/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Header/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9447376c27207f2a682b511a4b6cefa5c9293dcd"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Section/Section.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Section/Section.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 23
+        },
+        "end": {
+          "line": 33,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 14,
+          "column": 20
+        },
+        "end": {
+          "line": 14,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 32,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 23
+          },
+          "end": {
+            "line": 13,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 92
+          },
+          "end": {
+            "line": 33,
+            "column": 1
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 26
+          },
+          "end": {
+            "line": 13,
+            "column": 43
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 38
+            },
+            "end": {
+              "line": 13,
+              "column": 43
+            }
+          }
+        ],
+        "line": 13
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 18
+          },
+          "end": {
+            "line": 19,
+            "column": 73
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 19,
+              "column": 59
+            },
+            "end": {
+              "line": 19,
+              "column": 64
+            }
+          },
+          {
+            "start": {
+              "line": 19,
+              "column": 67
+            },
+            "end": {
+              "line": 19,
+              "column": 73
+            }
+          }
+        ],
+        "line": 19
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 18
+          },
+          "end": {
+            "line": 19,
+            "column": 56
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 19,
+              "column": 18
+            },
+            "end": {
+              "line": 19,
+              "column": 27
+            }
+          },
+          {
+            "start": {
+              "line": 19,
+              "column": 31
+            },
+            "end": {
+              "line": 19,
+              "column": 56
+            }
+          }
+        ],
+        "line": 19
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 7
+          },
+          "end": {
+            "line": 28,
+            "column": 7
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 8
+            },
+            "end": {
+              "line": 25,
+              "column": 13
+            }
+          },
+          {
+            "start": {
+              "line": 27,
+              "column": 8
+            },
+            "end": {
+              "line": 27,
+              "column": 14
+            }
+          }
+        ],
+        "line": 22
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "f": {
+      "0": 5
+    },
+    "b": {
+      "0": [5],
+      "1": [0, 5],
+      "2": [5, 0],
+      "3": [5, 0]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0d5d733fc7e133d6cad11116f5692198f2f5998b"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Section/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Section/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e1a5b296ea36d7b5b555061c4e026e84fc1a8d15"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/routes/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/routes/index.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 28
+        },
+        "end": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "c3c76871d5ef11c8a60ecf0d6d7c7a18a171bd6d"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/home/components/HomePage/HomePage.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/home/components/HomePage/HomePage.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 24
+        },
+        "end": {
+          "line": 22,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 24
+          },
+          "end": {
+            "line": 10,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 30
+          },
+          "end": {
+            "line": 22,
+            "column": 1
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {
+      "0": 1
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "aa7ffea46f5fad3f8f1e139138b74a4d07e10864"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/test/mocks/factories/populationDataFactory.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/test/mocks/factories/populationDataFactory.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 37
+        },
+        "end": {
+          "line": 16,
+          "column": 3
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 77
+        },
+        "end": {
+          "line": 16,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 68
+          },
+          "end": {
+            "line": 6,
+            "column": 69
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 77
+          },
+          "end": {
+            "line": 16,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 3,
+      "1": 20
+    },
+    "f": {
+      "0": 20
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "226ee59b358acb634e4d2711e421c10c68aebd11"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/helpers.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/helpers.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 41
+        },
+        "end": {
+          "line": 5,
+          "column": 89
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 79
+        },
+        "end": {
+          "line": 5,
+          "column": 89
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 41
+        },
+        "end": {
+          "line": 7,
+          "column": 90
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 79
+        },
+        "end": {
+          "line": 7,
+          "column": 90
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 39
+        },
+        "end": {
+          "line": 10,
+          "column": 91
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 91
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 36
+        },
+        "end": {
+          "line": 10,
+          "column": 89
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 41
+          },
+          "end": {
+            "line": 5,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 79
+          },
+          "end": {
+            "line": 5,
+            "column": 89
+          }
+        },
+        "line": 5
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 41
+          },
+          "end": {
+            "line": 7,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 79
+          },
+          "end": {
+            "line": 7,
+            "column": 90
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 39
+          },
+          "end": {
+            "line": 9,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 2
+          },
+          "end": {
+            "line": 10,
+            "column": 91
+          }
+        },
+        "line": 10
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 24
+          },
+          "end": {
+            "line": 10,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 36
+          },
+          "end": {
+            "line": 10,
+            "column": 89
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 6,
+      "1": 60,
+      "2": 6,
+      "3": 60,
+      "4": 6,
+      "5": 3,
+      "6": 141
+    },
+    "f": {
+      "0": 60,
+      "1": 60,
+      "2": 3,
+      "3": 141
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3256498add46b1e77b7c8ef2b406e82ebfe82163"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/PrefLineSeries.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/PrefLineSeries.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 15,
+          "column": 30
+        },
+        "end": {
+          "line": 26,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 25,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 30
+          },
+          "end": {
+            "line": 15,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 82
+          },
+          "end": {
+            "line": 26,
+            "column": 1
+          }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 2
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3d7265a9178a9a7d53a36c0f72c91b7c4e663c92"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/test/mocks/data/prefectures.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/test/mocks/data/prefectures.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 45
+        },
+        "end": {
+          "line": 51,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 3
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d9738b7673f733e83028851b4f185105b5c34e59"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Checkbox/Checkbox.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Checkbox/Checkbox.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 24
+        },
+        "end": {
+          "line": 17,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 24
+          },
+          "end": {
+            "line": 9,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 66
+          },
+          "end": {
+            "line": 17,
+            "column": 1
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 6,
+      "1": 146
+    },
+    "f": {
+      "0": 146
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "177af54022a3a5320f4f4b60203e8ed3b80d939f"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Checkbox/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/common/components/Checkbox/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "17e73ecb1035062a58369bda6b479d385b5b49b7"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/PrefecturesPicker.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/PrefecturesPicker.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 33
+        },
+        "end": {
+          "line": 38,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 37,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 20,
+          "column": 8
+        },
+        "end": {
+          "line": 34,
+          "column": 13
+        }
+      },
+      "3": {
+        "start": {
+          "line": 28,
+          "column": 41
+        },
+        "end": {
+          "line": 28,
+          "column": 60
+        }
+      },
+      "4": {
+        "start": {
+          "line": 29,
+          "column": 14
+        },
+        "end": {
+          "line": 29,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 33
+          },
+          "end": {
+            "line": 12,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 30
+          },
+          "end": {
+            "line": 38,
+            "column": 1
+          }
+        },
+        "line": 16
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 19,
+            "column": 23
+          },
+          "end": {
+            "line": 19,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 8
+          },
+          "end": {
+            "line": 34,
+            "column": 13
+          }
+        },
+        "line": 20
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 27,
+            "column": 22
+          },
+          "end": {
+            "line": 27,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 31
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        },
+        "line": 27
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 38
+          },
+          "end": {
+            "line": 23,
+            "column": 93
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 38
+            },
+            "end": {
+              "line": 23,
+              "column": 76
+            }
+          },
+          {
+            "start": {
+              "line": 23,
+              "column": 80
+            },
+            "end": {
+              "line": 23,
+              "column": 93
+            }
+          }
+        ],
+        "line": 23
+      }
+    },
+    "s": {
+      "0": 3,
+      "1": 3,
+      "2": 141,
+      "3": 2,
+      "4": 2
+    },
+    "f": {
+      "0": 3,
+      "1": 141,
+      "2": 2
+    },
+    "b": {
+      "0": [141, 0]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "67d4bddb44127274c0a488ed5425722f4e80ac73"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/store/hooks.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/store/hooks.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 43
+        },
+        "end": {
+          "line": 12,
+          "column": 88
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 49
+        },
+        "end": {
+          "line": 12,
+          "column": 88
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 33
+        },
+        "end": {
+          "line": 21,
+          "column": 1
+        }
+      },
+      "3": {
+        "start": {
+          "line": 18,
+          "column": 19
+        },
+        "end": {
+          "line": 18,
+          "column": 35
+        }
+      },
+      "4": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 80
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 23
+        },
+        "end": {
+          "line": 20,
+          "column": 67
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 41
+        },
+        "end": {
+          "line": 23,
+          "column": 94
+        }
+      },
+      "7": {
+        "start": {
+          "line": 23,
+          "column": 47
+        },
+        "end": {
+          "line": 23,
+          "column": 94
+        }
+      },
+      "8": {
+        "start": {
+          "line": 28,
+          "column": 28
+        },
+        "end": {
+          "line": 32,
+          "column": 1
+        }
+      },
+      "9": {
+        "start": {
+          "line": 29,
+          "column": 23
+        },
+        "end": {
+          "line": 29,
+          "column": 50
+        }
+      },
+      "10": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 41
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 43
+          },
+          "end": {
+            "line": 12,
+            "column": 44
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 49
+          },
+          "end": {
+            "line": 12,
+            "column": 88
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 33
+          },
+          "end": {
+            "line": 17,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 39
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 17
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 17
+          },
+          "end": {
+            "line": 20,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 23
+          },
+          "end": {
+            "line": 20,
+            "column": 67
+          }
+        },
+        "line": 20
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 41
+          },
+          "end": {
+            "line": 23,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 47
+          },
+          "end": {
+            "line": 23,
+            "column": 94
+          }
+        },
+        "line": 23
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 28
+          },
+          "end": {
+            "line": 28,
+            "column": 29
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 50
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 28
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 9
+          },
+          "end": {
+            "line": 31,
+            "column": 41
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 31,
+              "column": 9
+            },
+            "end": {
+              "line": 31,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 31,
+              "column": 39
+            },
+            "end": {
+              "line": 31,
+              "column": 41
+            }
+          }
+        ],
+        "line": 31
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 2,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 2,
+      "7": 0,
+      "8": 2,
+      "9": 0,
+      "10": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "b": {
+      "0": [0, 0]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "aad6d00d513edd8eb8006be7ab34110866bdf666"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/hooks.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/store/services/resasApi/hooks.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 30
+        },
+        "end": {
+          "line": 22,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 30
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 24,
+          "column": 27
+        },
+        "end": {
+          "line": 28,
+          "column": 1
+        }
+      },
+      "4": {
+        "start": {
+          "line": 25,
+          "column": 26
+        },
+        "end": {
+          "line": 25,
+          "column": 63
+        }
+      },
+      "5": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 44
+        }
+      },
+      "6": {
+        "start": {
+          "line": 30,
+          "column": 33
+        },
+        "end": {
+          "line": 30,
+          "column": 75
+        }
+      },
+      "7": {
+        "start": {
+          "line": 30,
+          "column": 39
+        },
+        "end": {
+          "line": 30,
+          "column": 75
+        }
+      },
+      "8": {
+        "start": {
+          "line": 32,
+          "column": 49
+        },
+        "end": {
+          "line": 49,
+          "column": 1
+        }
+      },
+      "9": {
+        "start": {
+          "line": 34,
+          "column": 4
+        },
+        "end": {
+          "line": 34,
+          "column": 60
+        }
+      },
+      "10": {
+        "start": {
+          "line": 36,
+          "column": 25
+        },
+        "end": {
+          "line": 39,
+          "column": 3
+        }
+      },
+      "11": {
+        "start": {
+          "line": 37,
+          "column": 10
+        },
+        "end": {
+          "line": 37,
+          "column": 93
+        }
+      },
+      "12": {
+        "start": {
+          "line": 37,
+          "column": 48
+        },
+        "end": {
+          "line": 37,
+          "column": 63
+        }
+      },
+      "13": {
+        "start": {
+          "line": 41,
+          "column": 2
+        },
+        "end": {
+          "line": 48,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 30
+          },
+          "end": {
+            "line": 10,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 36
+          },
+          "end": {
+            "line": 22,
+            "column": 1
+          }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 27
+          },
+          "end": {
+            "line": 24,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 49
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "line": 24
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 33
+          },
+          "end": {
+            "line": 30,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 39
+          },
+          "end": {
+            "line": 30,
+            "column": 75
+          }
+        },
+        "line": 30
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 49
+          },
+          "end": {
+            "line": 32,
+            "column": 50
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 87
+          },
+          "end": {
+            "line": 49,
+            "column": 1
+          }
+        },
+        "line": 32
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 4
+          },
+          "end": {
+            "line": 37,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 10
+          },
+          "end": {
+            "line": 37,
+            "column": 93
+          }
+        },
+        "line": 37
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 33
+          },
+          "end": {
+            "line": 37,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 48
+          },
+          "end": {
+            "line": 37,
+            "column": 63
+          }
+        },
+        "line": 37
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 17
+          },
+          "end": {
+            "line": 15,
+            "column": 49
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 15,
+              "column": 17
+            },
+            "end": {
+              "line": 15,
+              "column": 29
+            }
+          },
+          {
+            "start": {
+              "line": 15,
+              "column": 33
+            },
+            "end": {
+              "line": 15,
+              "column": 49
+            }
+          }
+        ],
+        "line": 15
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 9
+          },
+          "end": {
+            "line": 27,
+            "column": 44
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 27,
+              "column": 9
+            },
+            "end": {
+              "line": 27,
+              "column": 38
+            }
+          },
+          {
+            "start": {
+              "line": 27,
+              "column": 42
+            },
+            "end": {
+              "line": 27,
+              "column": 44
+            }
+          }
+        ],
+        "line": 27
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 10
+          },
+          "end": {
+            "line": 37,
+            "column": 93
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 10
+            },
+            "end": {
+              "line": 37,
+              "column": 70
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 74
+            },
+            "end": {
+              "line": 37,
+              "column": 93
+            }
+          }
+        ],
+        "line": 37
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 2,
+      "4": 0,
+      "5": 0,
+      "6": 2,
+      "7": 0,
+      "8": 2,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "b": {
+      "0": [0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "af986aba7732f3564f855bbc95811af8c6b13189"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/usePrefLineSeries.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/usePrefLineSeries.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 14,
+          "column": 33
+        },
+        "end": {
+          "line": 31,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 15,
+          "column": 19
+        },
+        "end": {
+          "line": 15,
+          "column": 40
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 16
+        },
+        "end": {
+          "line": 17,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 19,
+          "column": 35
+        },
+        "end": {
+          "line": 19,
+          "column": 78
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": 3
+        }
+      },
+      "5": {
+        "start": {
+          "line": 23,
+          "column": 34
+        },
+        "end": {
+          "line": 27,
+          "column": 7
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 33
+          },
+          "end": {
+            "line": 14,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 75
+          },
+          "end": {
+            "line": 31,
+            "column": 1
+          }
+        },
+        "line": 14
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 6
+          },
+          "end": {
+            "line": 23,
+            "column": 7
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 34
+          },
+          "end": {
+            "line": 27,
+            "column": 7
+          }
+        },
+        "line": 23
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "0dda89769e5cd9e4ad475e42877a282a22406ff8"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/PrefLineSeriesContainer.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/PrefLineSeriesContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 39
+        },
+        "end": {
+          "line": 10,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 37
+        },
+        "end": {
+          "line": 7,
+          "column": 68
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 57
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 39
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 87
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 0,
+      "2": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "33d591957a6a0480241a0995f49c2ae5346e5c72"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PrefLineSeries/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "affb81b7587e0c4d4c6cf9c7af7dbbfbbad7d1ae"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PopulationXYChart.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PopulationXYChart.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 15,
+          "column": 40
+        },
+        "end": {
+          "line": 17,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 25,
+          "column": 33
+        },
+        "end": {
+          "line": 80,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 26,
+          "column": 29
+        },
+        "end": {
+          "line": 26,
+          "column": 65
+        }
+      },
+      "3": {
+        "start": {
+          "line": 28,
+          "column": 2
+        },
+        "end": {
+          "line": 79,
+          "column": 3
+        }
+      },
+      "4": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 76,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 48,
+          "column": 36
+        },
+        "end": {
+          "line": 48,
+          "column": 98
+        }
+      },
+      "6": {
+        "start": {
+          "line": 55,
+          "column": 14
+        },
+        "end": {
+          "line": 55,
+          "column": 67
+        }
+      },
+      "7": {
+        "start": {
+          "line": 64,
+          "column": 16
+        },
+        "end": {
+          "line": 68,
+          "column": 22
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 33
+          },
+          "end": {
+            "line": 25,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 76
+          },
+          "end": {
+            "line": 80,
+            "column": 1
+          }
+        },
+        "line": 25
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 7
+          },
+          "end": {
+            "line": 30,
+            "column": 8
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 8
+          },
+          "end": {
+            "line": 76,
+            "column": 9
+          }
+        },
+        "line": 31
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 26
+          },
+          "end": {
+            "line": 48,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 36
+          },
+          "end": {
+            "line": 48,
+            "column": 98
+          }
+        },
+        "line": 48
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 54,
+            "column": 27
+          },
+          "end": {
+            "line": 54,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 55,
+            "column": 14
+          },
+          "end": {
+            "line": 55,
+            "column": 67
+          }
+        },
+        "line": 55
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 63,
+            "column": 29
+          },
+          "end": {
+            "line": 63,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 16
+          },
+          "end": {
+            "line": 68,
+            "column": 22
+          }
+        },
+        "line": 64
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 8
+          },
+          "end": {
+            "line": 76,
+            "column": 9
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 32,
+              "column": 10
+            },
+            "end": {
+              "line": 71,
+              "column": 20
+            }
+          },
+          {
+            "start": {
+              "line": 73,
+              "column": 10
+            },
+            "end": {
+              "line": 75,
+              "column": 16
+            }
+          }
+        ],
+        "line": 31
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 36
+          },
+          "end": {
+            "line": 48,
+            "column": 98
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 48,
+              "column": 64
+            },
+            "end": {
+              "line": 48,
+              "column": 93
+            }
+          },
+          {
+            "start": {
+              "line": 48,
+              "column": 96
+            },
+            "end": {
+              "line": 48,
+              "column": 98
+            }
+          }
+        ],
+        "line": 48
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 0,
+      "6": 1,
+      "7": 0
+    },
+    "f": {
+      "0": 2,
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 0
+    },
+    "b": {
+      "0": [1, 1],
+      "1": [0, 0]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3582a8f094feabec488012b393f1d714626faaa3"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/usePopulationXYChart.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/usePopulationXYChart.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 36
+        },
+        "end": {
+          "line": 18,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 20
+        },
+        "end": {
+          "line": 8,
+          "column": 49
+        }
+      },
+      "2": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 37
+        },
+        "end": {
+          "line": 14,
+          "column": 7
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 36
+          },
+          "end": {
+            "line": 7,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 42
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 6
+          },
+          "end": {
+            "line": 12,
+            "column": 7
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 37
+          },
+          "end": {
+            "line": 14,
+            "column": 7
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e477a30147f52264a99c31f47b48db03ec2f645d"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PopulationXYChartContainer.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/PopulationXYChartContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 42
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 40
+        },
+        "end": {
+          "line": 5,
+          "column": 62
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": 63
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 42
+          },
+          "end": {
+            "line": 4,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 48
+          },
+          "end": {
+            "line": 8,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4c3c5d226dc47ec03af74b34414b242d8b65ad3f"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PopulationXYChart/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "85c0f08ce14dfadb234754ec231fd79eac6392f3"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/usePrefecturesPicker.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/usePrefecturesPicker.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 43
+        },
+        "end": {
+          "line": 14,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 36
+        },
+        "end": {
+          "line": 39,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 71
+        },
+        "end": {
+          "line": 19,
+          "column": 3
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 26
+        },
+        "end": {
+          "line": 21,
+          "column": 42
+        }
+      },
+      "4": {
+        "start": {
+          "line": 23,
+          "column": 29
+        },
+        "end": {
+          "line": 23,
+          "column": 52
+        }
+      },
+      "5": {
+        "start": {
+          "line": 25,
+          "column": 29
+        },
+        "end": {
+          "line": 25,
+          "column": 56
+        }
+      },
+      "6": {
+        "start": {
+          "line": 27,
+          "column": 36
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 28,
+          "column": 35
+        },
+        "end": {
+          "line": 34,
+          "column": 5
+        }
+      },
+      "8": {
+        "start": {
+          "line": 32,
+          "column": 8
+        },
+        "end": {
+          "line": 32,
+          "column": 49
+        }
+      },
+      "9": {
+        "start": {
+          "line": 38,
+          "column": 2
+        },
+        "end": {
+          "line": 38,
+          "column": 38
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 36
+          },
+          "end": {
+            "line": 16,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 42
+          },
+          "end": {
+            "line": 39,
+            "column": 1
+          }
+        },
+        "line": 16
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 4
+          },
+          "end": {
+            "line": 28,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 35
+          },
+          "end": {
+            "line": 34,
+            "column": 5
+          }
+        },
+        "line": 28
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 31,
+            "column": 24
+          },
+          "end": {
+            "line": 31,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 47
+          },
+          "end": {
+            "line": 33,
+            "column": 7
+          }
+        },
+        "line": 31
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5a9c82e3cc7066d723076d2243c68aa5f648ba70"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/PrefecturesPickerContainer.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/PrefecturesPickerContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 42
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 40
+        },
+        "end": {
+          "line": 5,
+          "column": 62
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": 63
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 42
+          },
+          "end": {
+            "line": 4,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 48
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ec151ae6b2eca5ec77cafedb3bd35e5bd4543a1d"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/index.ts": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPicker/index.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "bec9d175cd28913df801550d817c18bbbd3f2df8"
+  },
+  "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPopulationChartPage.tsx": {
+    "path": "/Users/satoru/ghq/github.com/strozw/study-nextjs-with-rtkq/src/features/prefecturesPopulationChart/components/PrefecturesPopulationChartPage/PrefecturesPopulationChartPage.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 53
+        },
+        "end": {
+          "line": 15,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 21,
+          "column": 46
+        },
+        "end": {
+          "line": 37,
+          "column": 1
+        }
+      },
+      "2": {
+        "start": {
+          "line": 22,
+          "column": 50
+        },
+        "end": {
+          "line": 22,
+          "column": 99
+        }
+      },
+      "3": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 36,
+          "column": 3
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 46
+          },
+          "end": {
+            "line": 21,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 52
+          },
+          "end": {
+            "line": 37,
+            "column": 1
+          }
+        },
+        "line": 21
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "f": {
+      "0": 1
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "182f3d9f771a100ad42b7f9f6468b2e65b8e7c90"
+  }
+}
