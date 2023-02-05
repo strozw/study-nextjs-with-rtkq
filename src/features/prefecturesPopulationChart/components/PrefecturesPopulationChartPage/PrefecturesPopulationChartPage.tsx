@@ -1,15 +1,17 @@
+// import dynamic from 'next/dynamic'
 import { useContext, createContext, ContextType } from 'react'
 
 import { BaseLayout } from '@/common/components/BaseLayout'
 import { Header } from '@/common/components/Header'
 import { Section } from '@/common/components/Section'
 
+import { PopulationXYChartContainer } from './PopulationXYChart'
 import { PrefecturesPickerContainer } from './PrefecturesPicker'
 import * as style from './PrefecturesPopulationChartPage.css'
 
 export const PrefecturesPopulationChartPageContext = createContext({
   PrefecturePicker: PrefecturesPickerContainer,
-  PopulationXYChart: () => <div>PopulationXYChart</div>,
+  PopulationXYChart: PopulationXYChartContainer,
 })
 
 export type PrefecturesPopulationChartPageContextValue = ContextType<
