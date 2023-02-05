@@ -9,6 +9,7 @@ specifiers:
   '@next/font': 13.1.6
   '@react-spring/web': ^9.6.1
   '@reduxjs/toolkit': ^1.9.2
+  '@storybook/addon-coverage': ^0.0.7
   '@storybook/addon-essentials': 7.0.0-beta.36
   '@storybook/addon-interactions': 7.0.0-beta.36
   '@storybook/addon-links': 7.0.0-beta.36
@@ -56,6 +57,7 @@ specifiers:
   msw: ^1.0.0
   next: 13.1.6
   next-redux-wrapper: ^8.1.0
+  nyc: ^15.1.0
   postcss-loader: ^7.0.2
   prettier: ^2.8.3
   react: 18.2.0
@@ -97,6 +99,7 @@ devDependencies:
   '@jest/globals': 29.4.1
   '@jest/types': 29.4.1
   '@react-spring/web': 9.6.1_biqbaboplfbrettd7655fr4n2y
+  '@storybook/addon-coverage': 0.0.7
   '@storybook/addon-essentials': 7.0.0-beta.36_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-interactions': 7.0.0-beta.36_biqbaboplfbrettd7655fr4n2y
   '@storybook/addon-links': 7.0.0-beta.36_biqbaboplfbrettd7655fr4n2y
@@ -130,6 +133,7 @@ devDependencies:
   lint-staged: 13.1.0
   mini-css-extract-plugin: 2.7.2
   msw: 1.0.0_typescript@4.9.4
+  nyc: 15.1.0
   postcss-loader: 7.0.2
   prettier: 2.8.3
   standard-version: 9.5.0
@@ -3823,6 +3827,20 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       ts-dedent: 2.2.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@storybook/addon-coverage/0.0.7:
+    resolution:
+      {
+        integrity: sha512-pe9qI09kDAMXFACYBNOaYqsqb8Zpm9/O9WQqbFoPXLw1XNVvMa2mFJRI2D761l+52TkdfSeu/l19Bgo5h5qlGQ==,
+      }
+    dependencies:
+      '@types/babel__core': 7.20.0
+      '@types/istanbul-lib-coverage': 2.0.4
+      babel-plugin-istanbul: 6.1.1
+      vite-plugin-istanbul: 3.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -20274,6 +20292,20 @@ packages:
         integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==,
       }
     engines: { node: '>= 0.8' }
+    dev: true
+
+  /vite-plugin-istanbul/3.0.4:
+    resolution:
+      {
+        integrity: sha512-DJy3cq6yOFbsM3gLQf/3zeuaJNJsfBv5dLFdZdv8sUV30xLtZI+66QeYfHUyP/5vBUYyLA+xNUCSG5uHY6w+5g==,
+      }
+    dependencies:
+      '@istanbuljs/load-nyc-config': 1.1.0
+      istanbul-lib-instrument: 5.2.1
+      picocolors: 1.0.0
+      test-exclude: 6.0.0
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /w3c-xmlserializer/4.0.0:
