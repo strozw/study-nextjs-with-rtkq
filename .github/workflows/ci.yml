@@ -50,8 +50,8 @@ jobs:
       - name: Install dependencies
         run: pnpm i --no-frozen-lockfile
 
-      - name: run jest --coverage
-        run: pnpm jest --maxWorkers=2 --reporters="github-actions"
+      - name: run jest
+        run: pnpm jest --maxWorkers=2 --reporters="github-actions" --coverage
 
       - uses: actions/upload-artifact@v3
         with:
