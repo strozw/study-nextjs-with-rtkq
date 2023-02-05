@@ -7,7 +7,7 @@ name: 'Chromatic'
 on: push
 
 concurrency:
-  group: ci-${{ github.ref }}
+  group: chromatic-${{ github.ref }}
   cancel-in-progress: true
 
 # List of jobs
