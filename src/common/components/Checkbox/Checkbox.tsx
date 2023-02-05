@@ -11,7 +11,7 @@ export const Checkbox = ({ children, ...rest }: CheckboxProps) => {
     <label className={style.label}>
       <input className={style.input} type='checkbox' {...rest} />
 
-      {children}
+      <span>{children}</span>
     </label>
   )
 }
