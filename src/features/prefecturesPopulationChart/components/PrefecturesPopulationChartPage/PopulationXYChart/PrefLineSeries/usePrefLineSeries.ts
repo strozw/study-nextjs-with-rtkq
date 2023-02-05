@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 
-import { usePrefColor } from '@/features/prefecturesPopulationChart/store/hooks'
+import { usePrefColor } from '@/features/prefecturesPopulationChart/store/hooks/usePrefColor'
 import { Prefecture } from '@/store/services/resasApi'
 
 import { usePrefecturesTotalPopulationData, usePrefName } from '@/store/services/resasApi/hooks'
