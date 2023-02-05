@@ -143,8 +143,8 @@ jobs:
 
       - name: report coverage
         run: |
-          touch coverage/report.txt
-          pnpm nyc report --reporter=html --reporter=lcov -t coverage --report-dir coverage >> coverage/report.txt
+          touch ./coverage/report.txt
+          pnpm nyc report --reporter=html --reporter=lcov -t coverage --report-dir ./coverage >> ./coverage/report.txt
           echo '# Coverage :rocket:' >> $GITHUB_STEP_SUMMARY
           # sed で先頭行と末尾行の不要な罫線を消す
-          cat coverage/report.txt | sed '1d' | sed '$d' >> $GITHUB_STEP_SUMMARY
+          cat ./coverage/report.txt | sed '1d' | sed '$d' >> $GITHUB_STEP_SUMMARY
