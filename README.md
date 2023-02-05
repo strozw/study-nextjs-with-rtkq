@@ -55,3 +55,10 @@ pnpm i
 | ------- | ---------------------------------------------- | ----------------------- |
 | main    | https://nextjs-with-rtkq.study.strozw.dev/     | 最新 release に対応する |
 | develop | https://stg.nextjs-with-rtkq.study.strozw.dev/ | 開発中のもの            |
+
+### storybook
+
+| branch  | domain                                                  | note                    |
+| ------- | ------------------------------------------------------- | ----------------------- |
+| main    | https://main--63d6d495de625a6185818c73.chromatic.com    | 最新 release に対応する |
+| develop | https://develop--63d6d495de625a6185818c73.chromatic.com | 開発中のもの            |
