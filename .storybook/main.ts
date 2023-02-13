@@ -14,6 +14,10 @@ export default {
     'name': '@storybook/nextjs',
     'options': {
       fastRefresh: true,
+      builder: {
+        fsCache: true,
+        lazyCompilation: true,
+      },
     },
   },
   staticDirs: ['../public'],
